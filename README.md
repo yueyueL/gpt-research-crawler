@@ -20,6 +20,30 @@ This project crawled the relevant documentation and generated a knowledge file, 
 
 ### Getting Started
 
+
+
+### Custom GPT for One research Domain
+This repository contains a Python script designed to scrape research paper data from the DBLP database. The script extracts key information about research papers (including venues, titles, links, authors, and years) and saves it in either JSON or text format. This data can be instrumental in creating knowledge files for building domain-specific GPT models, such as a custom GPT for AI or Security domain researchers.
+
+How to Use the Script
+
+1. **Identify Top Venues in Your Domain**: Determine the top venues relevant to your research domain. For instance, in AI, prominent venues might include ICLR, ICML, NeurIPS, and ACL. You can refer to this [link](https://yueyuel.github.io/ReliableLM4Code/docs/venus/) for guidance on selecting top venues.
+   
+2. **Find DBLP URLs**: Obtain the specific DBLP URLs for your chosen venues. For example, the URL for ICLR is `https://dblp.uni-trier.de/db/conf/iclr`.
+
+3. **Run the Script**: Use the script to collect data from the DBLP database for your selected venues and years. The script is designed to be user-friendly, allowing for command-line input of parameters such as the DBLP URL, start and end years, output format, and output file name.
+
+```bash
+python script_name.py [--dblp_url <dblp_url>] [--start_year <start_year>] [--end_year <end_year>] [--output_format <output_format>] [--output_filename <output_filename>]
+```
+
+For example, to scrape data from ICLR from 2015 to 2023 and save it in TXT format with a custom file name:
+
+```bash
+python script_name.py --dblp_url https://dblp.uni-trier.de/db/conf/iclr --start_year 2015 --end_year 2023 --output_format txt --output_filename iclr_data
+```
+
+
 #### Upload Your Data to OpenAI
 
 The crawl process generates a file named `output.json` at the root of this project. This file can be uploaded to OpenAI to create your custom assistant or GPT model.
