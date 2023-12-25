@@ -7,10 +7,10 @@
 - Key Features
 - Example
 - Usage
-  - Running locally
-  - Custom GPT for One research Domain
+  - Setup and Installation
+  - Custom GPT for One Research Domain
   - Custom GPT for One Research Topic
-  - Custom GPT for Several research papers
+  - Custom GPT for Several Research Papers
 - Upload Your Data to OpenAI
 
 
@@ -44,7 +44,8 @@ git clone https://github.com/yueyueL/gpt-research
 pip install -r requirements.txt
 ```
 
-### Custom GPT for One research Domain
+### Custom GPT for One Research Domain
+
 In research, it’s crucial to have expert knowledge in specific domains. This script is designed to scrape research paper data from the DBLP database. It extracts key information about research papers (including venues, titles, links, authors, and years). This data can be instrumental in creating knowledge files for building domain-specific GPT models, such as a custom GPT for AI or Security domain researchers.
 
 How to Use the Script
@@ -93,7 +94,7 @@ python topic_crawler.py --keywords "chatgpt" "gpt-4" --output_format json --outp
 ```
 
 
-### Custom GPT for Several research papers
+### Custom GPT for Several Research Papers
 Combining several important papers can help customize a GPT model to focus on specific content. This script extracts text from all PDF files in a specified directory and saves the combined text to a single output file. This can be particularly useful when you need to focus on several research papers.
 
 How to Use the Script
@@ -123,3 +124,13 @@ The crawl process generates a file named `output.json` at the root of this proje
 
 > **Note**: A paid ChatGPT plan may be necessary to create and use custom GPT models at this time.
 
+## Disclaimer
+
+**Disclaimer:** This software is experimental and is provided without any warranty. By using this software, you agree to the following terms and conditions:
+
+1. This software is experimental in nature.
+2. You are solely responsible for the use of this software.
+3. The developer is not responsible for any outcomes resulting from the use of this software.
+4. Users must adhere to the terms of use of OpenAI's ChatGPT. For more details, please visit [OpenAI's terms of use](https://openai.com/terms).
+
+If you do not agree to these terms, you should not use this software.
