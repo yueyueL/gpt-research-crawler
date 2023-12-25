@@ -20,7 +20,7 @@ This project crawled the relevant documentation and generated a knowledge file, 
 
 
 ### Custom GPT for One research Domain
-This repository contains a Python script designed to scrape research paper data from the DBLP database. The script extracts key information about research papers (including venues, titles, links, authors, and years) and saves it in either JSON or text format. This data can be instrumental in creating knowledge files for building domain-specific GPT models, such as a custom GPT for AI or Security domain researchers.
+In research, it's crucial to have expert knowledge in specific domains. This script is designed to scrape research paper data from the DBLP database. It extracts key information about research papers (including venues, titles, links, authors, and years). This data can be instrumental in creating knowledge files for building domain-specific GPT models, such as a custom GPT for AI or Security domain researchers.
 
 How to Use the Script
 
@@ -42,8 +42,7 @@ python conference_crawler_dblp.py --dblp_url https://dblp.uni-trier.de/db/conf/i
 
 
 ### Custom GPT for One Research Topic
-
-This repository contains a Python script for scraping research paper data from Semantic Scholar. It focuses on collecting relevant papers based on specified keywords, including details like paper title, abstract, authors, citation count, and more. This script can be particularly useful for constructing a knowledge base to build a custom GPT model for a specific research domain.
+In research, creating an expert GPT focused on specific research topics is beneficial. This script is designed to scrape research paper data from Semantic Scholar. It focuses on collecting relevant papers based on specified keywords, including details like paper title, abstract, authors, citation count, and more. This script can be particularly useful for constructing a knowledge base to build a custom GPT model for a specific research topic.
 
 1. **Identify All Relevant Keywords**: Determine the relevant keywords that define your research topic. These keywords will be used to search for related papers on Semantic Scholar.
 
@@ -57,6 +56,20 @@ python topic_crawler.py [--keywords <keyword1 keyword2 ...>] [--output_format <j
 For example, to scrape data for papers related to "chatgpt" and "gpt-4" and save the results in a JSON file named 'ai_research.json', use the following command:
 ```bash
 python topic_crawler.py --keywords "chatgpt" "gpt-4" --output_format json --output_filename gpt_research
+```
+
+
+### Custom GPT for Several research papers
+For research, combining several important papers can help customize a GPT model to focus on specific content. This script extracts text from all PDF files in a specified directory and saves the combined text to a single output file. This can be particularly useful when you need to focus on several research papers.
+
+How to Use the Script
+
+1. **Get PDFs of Research Papers**: Download the PDFs of the papers you’re interested in and put them into one directory.
+
+2. **Run the Script**: Use the script to extract the text from the PDFs and combine it into one text file. Run the script from the command line using the following format:
+
+```bash
+python paperPdf_extract.py <pdf_dir> <output_path>
 ```
 
 
