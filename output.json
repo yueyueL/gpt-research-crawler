@@ -1,0 +1,542 @@
+[
+    {
+        "title": "A behavioral notion of robustness for software systems.",
+        "authors": [
+            "Changjian Zhang",
+            "David Garlan",
+            "Eunsuk Kang"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409753"
+    },
+    {
+        "title": "ARDiff: scaling program equivalence checking via iterative abstraction and refinement of common code.",
+        "authors": [
+            "Sahar Badihi",
+            "Faridah Akinotcho",
+            "Yi Li",
+            "Julia Rubin"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409757"
+    },
+    {
+        "title": "C2S: translating natural language comments to formal program specifications.",
+        "authors": [
+            "Juan Zhai",
+            "Yu Shi",
+            "Minxue Pan",
+            "Guian Zhou",
+            "Yongxiang Liu",
+            "Chunrong Fang",
+            "Shiqing Ma",
+            "Lin Tan",
+            "Xiangyu Zhang"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409716"
+    },
+    {
+        "title": "Detecting and understanding JavaScript global identifier conflicts on the web.",
+        "authors": [
+            "Mingxue Zhang",
+            "Wei Meng"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409747"
+    },
+    {
+        "title": "Domain-independent interprocedural program analysis using block-abstraction memoization.",
+        "authors": [
+            "Dirk Beyer",
+            "Karlheinz Friedberger"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409718"
+    },
+    {
+        "title": "Flexeme: untangling commits using lexical flows.",
+        "authors": [
+            "Profir-Petru Pârtachi",
+            "Santanu Kumar Dash",
+            "Miltiadis Allamanis",
+            "Earl T. Barr"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409693"
+    },
+    {
+        "title": "HISyn: human learning-inspired natural language programming.",
+        "authors": [
+            "Zifan Nan",
+            "Hui Guan",
+            "Xipeng Shen"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409673"
+    },
+    {
+        "title": "Inductive program synthesis over noisy data.",
+        "authors": [
+            "Shivam Handa",
+            "Martin C. Rinard"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409732"
+    },
+    {
+        "title": "Inherent vacuity for GR(1) specifications.",
+        "authors": [
+            "Shahar Maoz",
+            "Rafi Shalom"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409669"
+    },
+    {
+        "title": "Interval counterexamples for loop invariant learning.",
+        "authors": [
+            "Rongchen Xu",
+            "Fei He",
+            "Bow-Yaw Wang"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409752"
+    },
+    {
+        "title": "Java Ranger: statically summarizing regions for efficient symbolic execution of Java.",
+        "authors": [
+            "Vaibhav Sharma",
+            "Soha Hussein",
+            "Michael W. Whalen",
+            "Stephen McCamant",
+            "Willem Visser"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409734"
+    },
+    {
+        "title": "JShrink: in-depth investigation into debloating modern Java applications.",
+        "authors": [
+            "Bobby R. Bruce",
+            "Tianyi Zhang",
+            "Jaspreet Arora",
+            "Guoqing Harry Xu",
+            "Miryung Kim"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409738"
+    },
+    {
+        "title": "Making symbolic execution promising by learning aggressive state-pruning strategy.",
+        "authors": [
+            "Sooyoung Cha",
+            "Hakjoo Oh"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409755"
+    },
+    {
+        "title": "Mining assumptions for software components using machine learning.",
+        "authors": [
+            "Khouloud Gaaloul",
+            "Claudio Menghi",
+            "Shiva Nejati",
+            "Lionel C. Briand",
+            "David Wolfe"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409737"
+    },
+    {
+        "title": "Mining input grammars from dynamic control flow.",
+        "authors": [
+            "Rahul Gopinath",
+            "Björn Mathis",
+            "Andreas Zeller"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409679"
+    },
+    {
+        "title": "Modular collaborative program analysis in OPAL.",
+        "authors": [
+            "Dominik Helm",
+            "Florian Kübler",
+            "Michael Reif",
+            "Michael Eichberg",
+            "Mira Mezini"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409765"
+    },
+    {
+        "title": "Past-sensitive pointer analysis for symbolic execution.",
+        "authors": [
+            "David Trabish",
+            "Timotej Kapus",
+            "Noam Rinetzky",
+            "Cristian Cadar"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409698"
+    },
+    {
+        "title": "TypeWriter: neural type prediction with search-based validation.",
+        "authors": [
+            "Michael Pradel",
+            "Georgios Gousios",
+            "Jason Liu",
+            "Satish Chandra"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409715"
+    },
+    {
+        "title": "UBITect: a precise and scalable method to detect use-before-initialization bugs in Linux kernel.",
+        "authors": [
+            "Yizhuo Zhai",
+            "Yu Hao",
+            "Hang Zhang",
+            "Daimeng Wang",
+            "Chengyu Song",
+            "Zhiyun Qian",
+            "Mohsen Lesani",
+            "Srikanth V. Krishnamurthy",
+            "Paul L. Yu"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409686"
+    },
+    {
+        "title": "Exploring how deprecated Python library APIs are (not) handled.",
+        "authors": [
+            "Jiawei Wang",
+            "Li Li",
+            "Kui Liu",
+            "Haipeng Cai"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409735"
+    },
+    {
+        "title": "Selecting third-party libraries: the practitioners' perspective.",
+        "authors": [
+            "Enrique Larios Vargas",
+            "Maurício Finavaro Aniche",
+            "Christoph Treude",
+            "Magiel Bruntink",
+            "Georgios Gousios"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409711"
+    },
+    {
+        "title": "A principled approach to GraphQL query cost analysis.",
+        "authors": [
+            "Alan Cha",
+            "Erik Wittern",
+            "Guillaume Baudart",
+            "James C. Davis",
+            "Louis Mandel",
+            "Jim Alain Laredo"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409670"
+    },
+    {
+        "title": "Beware the evolving 'intelligent' web service! an integration architecture tactic to guard AI-first components.",
+        "authors": [
+            "Alex Cummaudo",
+            "Scott Barnett",
+            "Rajesh Vasa",
+            "John C. Grundy",
+            "Mohamed Abdelrazek"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409688"
+    },
+    {
+        "title": "Block public access: trust safety verification of access control policies.",
+        "authors": [
+            "Malik Bouchet",
+            "Byron Cook",
+            "Bryant Cutler",
+            "Anna Druzkina",
+            "Andrew Gacek",
+            "Liana Hadarean",
+            "Ranjit Jhala",
+            "Brad Marshall",
+            "Daniel Peebles",
+            "Neha Rungta",
+            "Cole Schlesinger",
+            "Chriss Stephens",
+            "Carsten Varming",
+            "Andy Warfield"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409728"
+    },
+    {
+        "title": "Efficient incident identification from multi-dimensional issue reports via meta-heuristic search.",
+        "authors": [
+            "Jiazhen Gu",
+            "Chuan Luo",
+            "Si Qin",
+            "Bo Qiao",
+            "Qingwei Lin",
+            "Hongyu Zhang",
+            "Ze Li",
+            "Yingnong Dang",
+            "Shaowei Cai",
+            "Wei Wu",
+            "Yangfan Zhou",
+            "Murali Chintalapati",
+            "Dongmei Zhang"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409741"
+    },
+    {
+        "title": "Identifying linked incidents in large-scale online service systems.",
+        "authors": [
+            "Yujun Chen",
+            "Xian Yang",
+            "Hang Dong",
+            "Xiaoting He",
+            "Hongyu Zhang",
+            "Qingwei Lin",
+            "Junjie Chen",
+            "Pu Zhao",
+            "Yu Kang",
+            "Feng Gao",
+            "Zhangwei Xu",
+            "Dongmei Zhang"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409768"
+    },
+    {
+        "title": "Real-time incident prediction for online service systems.",
+        "authors": [
+            "Nengwen Zhao",
+            "Junjie Chen",
+            "Zhou Wang",
+            "Xiao Peng",
+            "Gang Wang",
+            "Yong Wu",
+            "Fang Zhou",
+            "Zhen Feng",
+            "Xiaohui Nie",
+            "Wenchi Zhang",
+            "Kaixin Sui",
+            "Dan Pei"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409672"
+    },
+    {
+        "title": "Configuration smells in continuous delivery pipelines: a linter and a six-month study on GitLab.",
+        "authors": [
+            "Carmine Vassallo",
+            "Sebastian Proksch",
+            "Anna Jancso",
+            "Harald C. Gall",
+            "Massimiliano Di Penta"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409709"
+    },
+    {
+        "title": "Dimensions of software configuration: on the configuration context in modern software development.",
+        "authors": [
+            "Norbert Siegmund",
+            "Nicolai Ruckel",
+            "Janet Siegmund"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409675"
+    },
+    {
+        "title": "Global cost/quality management across multiple applications.",
+        "authors": [
+            "Liu Liu",
+            "Sibren Isaacman",
+            "Ulrich Kremer"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409721"
+    },
+    {
+        "title": "Understanding and discovering software configuration dependencies in cloud and datacenter systems.",
+        "authors": [
+            "Qingrong Chen",
+            "Teng Wang",
+            "Owolabi Legunsen",
+            "Shanshan Li",
+            "Tianyin Xu"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409727"
+    },
+    {
+        "title": "Docable: evaluating the executability of software tutorials.",
+        "authors": [
+            "Samim Mirhosseini",
+            "Chris Parnin"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409706"
+    },
+    {
+        "title": "RulePad: interactive authoring of checkable design rules.",
+        "authors": [
+            "Sahar Mehrpour",
+            "Thomas D. LaToza",
+            "Hamed Sarvari"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409751"
+    },
+    {
+        "title": "A first look at good first issues on GitHub.",
+        "authors": [
+            "Xin Tan",
+            "Minghui Zhou",
+            "Zeyu Sun"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409746"
+    },
+    {
+        "title": "A randomized controlled trial on the effects of embedded computer language switching.",
+        "authors": [
+            "Phillip Merlin Uesbeck",
+            "Cole S. Peterson",
+            "Bonita Sharif",
+            "Andreas Stefik"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409701"
+    },
+    {
+        "title": "A theory of the engagement in open source projects via summer of code programs.",
+        "authors": [
+            "Jefferson De Oliveira Silva",
+            "Igor Wiese",
+            "Daniel M. Germán",
+            "Christoph Treude",
+            "Marco Aurélio Gerosa",
+            "Igor Steinmacher"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409724"
+    },
+    {
+        "title": "An empirical analysis of the costs of clone- and platform-oriented software reuse.",
+        "authors": [
+            "Jacob Krüger",
+            "Thorsten Berger"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409684"
+    },
+    {
+        "title": "An empirical study of bots in software development: characteristics and challenges from a practitioner's perspective.",
+        "authors": [
+            "Linda Erlenhov",
+            "Francisco Gomes de Oliveira Neto",
+            "Philipp Leitner"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409680"
+    },
+    {
+        "title": "Biases and differences in code review using medical imaging and eye-tracking: genders, humans, and machines.",
+        "authors": [
+            "Yu Huang",
+            "Kevin Leach",
+            "Zohreh Sharafi",
+            "Nicholas McKay",
+            "Tyler Santander",
+            "Westley Weimer"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409681"
+    },
+    {
+        "title": "Community expectations for research artifacts and evaluation processes.",
+        "authors": [
+            "Ben Hermann",
+            "Stefan Winter",
+            "Janet Siegmund"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409767"
+    },
+    {
+        "title": "Does stress impact technical interview performance?",
+        "authors": [
+            "Mahnaz Behroozi",
+            "Shivani Shirolkar",
+            "Titus Barik",
+            "Chris Parnin"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409712"
+    },
+    {
+        "title": "Exploring the evolution of software practices.",
+        "authors": [
+            "Yvonne Dittrich",
+            "Christian Bo Michelsen",
+            "Paolo Tell",
+            "Pernille Lous",
+            "Allan Ebdrup"
+        ],
+        "venue": "fse",
+        "year": 2020,
+        "link": "https://doi.org/10.1145/3368089.3409766"
+    }
+]

@@ -1,0 +1,2077 @@
+[
+    {
+        "paperId": "0391b898d78e92c740c6925c4919fff05ed8c0f8",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/ZhangGK20",
+            "MAG": "3105057307",
+            "DOI": "10.1145/3368089.3409753",
+            "CorpusId": 226274318
+        },
+        "corpusId": 226274318,
+        "url": "https://www.semanticscholar.org/paper/0391b898d78e92c740c6925c4919fff05ed8c0f8",
+        "title": "A behavioral notion of robustness for software systems",
+        "abstract": "Software systems are designed and implemented with assumptions about the environment. However, once the system is deployed, the actual environment may deviate from its expected behavior, possibly undermining desired properties of the system. To enable systematic design of systems that are robust against potential environmental deviations, we propose a rigorous notion of robustness for software systems. In particular, the robustness of a system is defined as the largest set of deviating environmental behaviors under which the system is capable of guaranteeing a desired property. We describe a new set of design analysis problems based on our notion of robustness, and a technique for automatically computing robustness of a system given its behavior description. We demonstrate potential applications of our robustness notion on two case studies involving network protocols and safety-critical interfaces.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 44,
+        "citationCount": 12,
+        "influentialCitationCount": 1,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3368089.3409753",
+            "status": "BRONZE"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "150961520",
+                "name": "Changjian Zhang"
+            },
+            {
+                "authorId": "145307943",
+                "name": "D. Garlan"
+            },
+            {
+                "authorId": "2129496",
+                "name": "Eunsuk Kang"
+            }
+        ]
+    },
+    {
+        "paperId": "7dc2ddbee25757a20c005f959c4f93b3464cabaa",
+        "externalIds": {
+            "MAG": "3098557859",
+            "DBLP": "conf/sigsoft/BadihiA0R20",
+            "DOI": "10.1145/3368089.3409757",
+            "CorpusId": 221823389
+        },
+        "corpusId": 221823389,
+        "url": "https://www.semanticscholar.org/paper/7dc2ddbee25757a20c005f959c4f93b3464cabaa",
+        "title": "ARDiff: scaling program equivalence checking via iterative abstraction and refinement of common code",
+        "abstract": "Equivalence checking techniques help establish whether two versions of a program exhibit the same behavior. The majority of popular techniques for formally proving/refuting equivalence relies on symbolic execution – a static analysis approach that reasons about program behaviors in terms of symbolic input variables. Yet, symbolic execution is difficult to scale in practice due to complex programming constructs, such as loops and non-linear arithmetic. This paper proposes an approach, named ARDiff, for improving the scalability of symbolic-execution-based equivalence checking techniques when comparing syntactically-similar versions of a program, e.g., for verifying the correctness of code upgrades and refactoring. Our approach relies on a set of novel heuristics to determine which parts of the versions’ common code can be effectively pruned during the analysis, reducing the analysis complexity without sacrificing its effectiveness. Furthermore, we devise a new equivalence checking benchmark, extending existing benchmarks with a set of real-life methods containing complex math functions and loops. We evaluate the effectiveness and efficiency of ARDiff on this benchmark and show that it outperforms existing method-level equivalence checking techniques by solving 86% of all equivalent and 55% of non-equivalent cases, compared with 47% to 69% for equivalent and 38% to 52% for non-equivalent cases in related work.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 45,
+        "citationCount": 18,
+        "influentialCitationCount": 3,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "8438921",
+                "name": "Sahar Badihi"
+            },
+            {
+                "authorId": "2008293255",
+                "name": "Faridah Akinotcho"
+            },
+            {
+                "authorId": "47002970",
+                "name": "Yi Li"
+            },
+            {
+                "authorId": "40575065",
+                "name": "J. Rubin"
+            }
+        ]
+    },
+    {
+        "paperId": "93c24e1448185153726313b33f972859581bda0f",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/ZhaiSPZLFM0020",
+            "MAG": "3101193881",
+            "DOI": "10.1145/3368089.3409716",
+            "CorpusId": 221783017
+        },
+        "corpusId": 221783017,
+        "url": "https://www.semanticscholar.org/paper/93c24e1448185153726313b33f972859581bda0f",
+        "title": "C2S: translating natural language comments to formal program specifications",
+        "abstract": "Formal program specifications are essential for various software engineering tasks, such as program verification, program synthesis, code debugging and software testing. However, manually inferring formal program specifications is not only time-consuming but also error-prone. In addition, it requires substantial expertise. Natural language comments contain rich semantics about behaviors of code, making it feasible to infer program specifications from comments. Inspired by this, we develop a tool, named C2S, to automate the specification synthesis task by translating natural language comments into formal program specifications. Our approach firstly constructs alignments between natural language word and specification tokens from existing comments and their corresponding specifications. Then for a given method comment, our approach assembles tokens that are associated with words in the comment from the alignments into specifications guided by specification syntax and the context of the target method. Our tool successfully synthesizes 1,145 specifications for 511 methods of 64 classes in 5 different projects, substantially outperforming the state-of-the-art. The generated specifications are also used to improve a number of software engineering tasks like static taint analysis, which demonstrates the high quality of the specifications.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 51,
+        "citationCount": 24,
+        "influentialCitationCount": 4,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "2008017411",
+                "name": "Juan Zhai"
+            },
+            {
+                "authorId": "2118758848",
+                "name": "Yu Shi"
+            },
+            {
+                "authorId": "40300027",
+                "name": "Minxue Pan"
+            },
+            {
+                "authorId": "2008191892",
+                "name": "Guian Zhou"
+            },
+            {
+                "authorId": "2108031359",
+                "name": "Yongxiang Liu"
+            },
+            {
+                "authorId": "7595994",
+                "name": "Chunrong Fang"
+            },
+            {
+                "authorId": "2026855",
+                "name": "Shiqing Ma"
+            },
+            {
+                "authorId": "2106349652",
+                "name": "Lin Tan"
+            },
+            {
+                "authorId": "1771551",
+                "name": "X. Zhang"
+            }
+        ]
+    },
+    {
+        "paperId": "cfc38bfd2455928408b71e5ad2b37f24bf786760",
+        "externalIds": {
+            "MAG": "3102356356",
+            "DBLP": "conf/sigsoft/Zhang020",
+            "DOI": "10.1145/3368089.3409747",
+            "CorpusId": 226274258
+        },
+        "corpusId": 226274258,
+        "url": "https://www.semanticscholar.org/paper/cfc38bfd2455928408b71e5ad2b37f24bf786760",
+        "title": "Detecting and understanding JavaScript global identifier conflicts on the web",
+        "abstract": "JavaScript is widely used for implementing client-side web applications, and it is common to include JavaScript code from many different hosts. However, in a web browser, all the scripts loaded in the same frame share a single global namespace. As a result, a script may read or even overwrite the global objects or functions in other scripts, causing unexpected behaviors. For example, a script can redefine a function in a different script as an object, so that any call of that function would cause an exception at run time. We systematically investigate the client-side JavaScript code integrity problem caused by JavaScript global identifier conflicts in this paper. We developed a browser-based analysis framework, JSObserver, to collect and analyze the write operations to global memory locations by JavaScript code. We identified three categories of conflicts using JSObserver on the Alexa top 100K websites, and detected 145,918 conflicts on 31,615 websites. We reveal that JavaScript global identifier conflicts are prevalent and could cause behavior deviation at run time. In particular, we discovered that 1,611 redefined functions were called after being overwritten, and many scripts modified the value of cookies or redefined cookie-related functions. Our research demonstrated that JavaScript global identifier conflict is an emerging threat to both the web users and the integrity of web applications.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 34,
+        "citationCount": 4,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "9385596",
+                "name": "Mingxue Zhang"
+            },
+            {
+                "authorId": "2105541636",
+                "name": "W. Meng"
+            }
+        ]
+    },
+    {
+        "paperId": "aca6784fe092c2abbfe6bbd338258a5ecd34526a",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/0001F20",
+            "MAG": "3100777132",
+            "DOI": "10.1145/3368089.3409718",
+            "CorpusId": 221676683
+        },
+        "corpusId": 221676683,
+        "url": "https://www.semanticscholar.org/paper/aca6784fe092c2abbfe6bbd338258a5ecd34526a",
+        "title": "Domain-independent interprocedural program analysis using block-abstraction memoization",
+        "abstract": "Whenever a new software-verification technique is developed, additional effort is necessary to extend the new program analysis to an interprocedural one, such that it supports recursive procedures. We would like to reduce that additional effort. Our contribution is an approach to extend an existing analysis in a modular and domain-independent way to an interprocedural analysis without large changes: We present interprocedural block-abstraction memoization (BAM), which is a technique for procedure summarization to analyze (recursive) procedures. For recursive programs, a fix-point algorithm terminates the recursion if every procedure is sufficiently unrolled and summarized to cover the abstract state space. BAM Interprocedural works for data-flow analysis and for model checking, and is independent from the underlying abstract domain. To witness that our interprocedural analysis is generic and configurable, we defined and evaluated the approach for three completely different abstract domains: predicate abstraction, explicit values, and intervals. The interprocedural BAM-based analysis is implemented in the open-source verification framework CPAchecker. The evaluation shows that the overhead for modularity and domain-independence is not prohibitively large and the analysis is still competitive with other state-of-the-art software-verification tools.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 58,
+        "citationCount": 1,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "3414955",
+                "name": "D. Beyer"
+            },
+            {
+                "authorId": "2015560",
+                "name": "Karlheinz Friedberger"
+            }
+        ]
+    },
+    {
+        "paperId": "2a4eb68c2be6fa7076b8e2179bdcd9a09239d586",
+        "externalIds": {
+            "MAG": "3102072454",
+            "DBLP": "conf/sigsoft/PartachiDAB20",
+            "DOI": "10.1145/3368089.3409693",
+            "CorpusId": 226274196
+        },
+        "corpusId": 226274196,
+        "url": "https://www.semanticscholar.org/paper/2a4eb68c2be6fa7076b8e2179bdcd9a09239d586",
+        "title": "Flexeme: untangling commits using lexical flows",
+        "abstract": "Today, most developers bundle changes into commits that they submit to a shared code repository. Tangled commits intermix distinct concerns, such as a bug fix and a new feature. They cause issues for developers, reviewers, and researchers alike: they restrict the usability of tools such as git bisect, make patch comprehension more difficult, and force researchers who mine software repositories to contend with noise. We present a novel data structure, the 𝛿-NFG, a multiversion Program Dependency Graph augmented with name flows. A 𝛿-NFG directly and simultaneously encodes different program versions, thereby capturing commits, and annotates data flow edges with the names/lexemes that flow across them. Our technique, Flexeme, builds a 𝛿-NFG from commits, then applies Agglomerative Clustering using Graph Similarity to that 𝛿-NFG to untangle its commits. At the untangling task on a C# corpus, our implementation, Heddle, improves the state-of-the-art on accuracy by 0.14, achieving 0.81, in a fraction of the time: Heddle is 32 times faster than the previous state-of-the-art.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 31,
+        "citationCount": 11,
+        "influentialCitationCount": 2,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://discovery.ucl.ac.uk/id/eprint/10107163/2/Barr_Flexeme-%20Untangling%20Commits%20Using%20Lexical%20Flows_AAM.pdf",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle",
+            "Review"
+        ],
+        "authors": [
+            {
+                "authorId": "1977375399",
+                "name": "Profir-Petru Pârtachi"
+            },
+            {
+                "authorId": "70354487",
+                "name": "Santanu Kumar Dash"
+            },
+            {
+                "authorId": "3216345",
+                "name": "Miltiadis Allamanis"
+            },
+            {
+                "authorId": "1757975",
+                "name": "Earl T. Barr"
+            }
+        ]
+    },
+    {
+        "paperId": "1a127b6b618c3a7c7f467b8fa75cfb9b45e14f08",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/NanGS20",
+            "MAG": "3099205773",
+            "DOI": "10.1145/3368089.3409673",
+            "CorpusId": 226274151
+        },
+        "corpusId": 226274151,
+        "url": "https://www.semanticscholar.org/paper/1a127b6b618c3a7c7f467b8fa75cfb9b45e14f08",
+        "title": "HISyn: human learning-inspired natural language programming",
+        "abstract": "Natural Language (NL) programming automatically synthesizes code based on inputs expressed in natural language. It has recently received lots of growing interest. Recent solutions however all require many labeled training examples for their data-driven nature. This paper proposes an NLU-driven approach, a new approach inspired by how humans learn programming. It centers around Natural Language Understanding and draws on a novel graph-based mapping algorithm, foregoing the need of large numbers of labeled examples. The resulting NL programming framework, HISyn, using no training examples, gives synthesis accuracy comparable to those by data-driven methods trained on hundreds of training numbers. HISyn meanwhile demonstrates advantages in interpretability, error diagnosis support, and cross-domain extensibility.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 58,
+        "citationCount": 8,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "69911350",
+                "name": "Zifan Nan"
+            },
+            {
+                "authorId": "49061558",
+                "name": "Hui Guan"
+            },
+            {
+                "authorId": "37914192",
+                "name": "Xipeng Shen"
+            }
+        ]
+    },
+    {
+        "paperId": "60789f203c17f0e258fb9e26ca5e51a57a152709",
+        "externalIds": {
+            "DBLP": "journals/corr/abs-2009-10272",
+            "MAG": "3088135204",
+            "ArXiv": "2009.10272",
+            "DOI": "10.1145/3368089.3409732",
+            "CorpusId": 221836737
+        },
+        "corpusId": 221836737,
+        "url": "https://www.semanticscholar.org/paper/60789f203c17f0e258fb9e26ca5e51a57a152709",
+        "title": "Inductive program synthesis over noisy data",
+        "abstract": "We present a new framework and associated synthesis algorithms for program synthesis over noisy data, i.e., data that may contain incorrect/corrupted input-output examples. This framework is based on an extension of finite tree automata called state-weighted finite tree automata. We show how to apply this framework to formulate and solve a variety of program synthesis problems over noisy data. Results from our implemented system running on problems from the SyGuS 2018 benchmark suite highlight its ability to successfully synthesize programs in the face of noisy data sets, including the ability to synthesize a correct program even when every input-output example in the data set is corrupted.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 22,
+        "citationCount": 17,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3368089.3409732",
+            "status": "BRONZE"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "46199657",
+                "name": "Shivam Handa"
+            },
+            {
+                "authorId": "1720971",
+                "name": "M. Rinard"
+            }
+        ]
+    },
+    {
+        "paperId": "ecc51b627dafce20b7a693103d708b14557bc3fb",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/MaozS20",
+            "MAG": "3103851130",
+            "DOI": "10.1145/3368089.3409669",
+            "CorpusId": 226274301
+        },
+        "corpusId": 226274301,
+        "url": "https://www.semanticscholar.org/paper/ecc51b627dafce20b7a693103d708b14557bc3fb",
+        "title": "Inherent vacuity for GR(1) specifications",
+        "abstract": "Vacuity is a well-known quality issue in formal specifications, studied mostly in the context of model checking. Inherent vacuity is a type of vacuity that applies to specifications, without the context of a model. GR(1) is an expressive assume-guarantee fragment of LTL, which enables efficient symbolic synthesis. In this work we investigate inherent vacuity for GR(1) specifications. We define several general types of inherent vacuity for GR(1), including specification element vacuity and domain value vacuity. We detect vacuities using a reduction to LTL satisfiability, specialized for the context of GR(1). We further extend vacuity detection to handle GR(1) specifications that are enriched with past LTL, monitors, and patterns. Finally, we define a novel notion of vacuity core, which provides means to localize the cause of vacuity. We implemented our work and evaluated it on benchmarks from the literature. The evaluation shows that vacuities are indeed common in GR(1) specifications, and that we are able to efficiently detect them and effectively localize their causes. Moreover, our evaluation shows that removal of vacuous specification elements may significantly reduce synthesis time.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 43,
+        "citationCount": 14,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://zenodo.org/record/6576691/files/vacuity-fse20.pdf",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "1701597",
+                "name": "S. Maoz"
+            },
+            {
+                "authorId": "2146214",
+                "name": "Rafi Shalom"
+            }
+        ]
+    },
+    {
+        "paperId": "db5c41daaf75bafbb5e6093a3eb21066e7fb1041",
+        "externalIds": {
+            "MAG": "3102168869",
+            "DBLP": "conf/sigsoft/Xu0W20",
+            "DOI": "10.1145/3368089.3409752",
+            "CorpusId": 226274246
+        },
+        "corpusId": 226274246,
+        "url": "https://www.semanticscholar.org/paper/db5c41daaf75bafbb5e6093a3eb21066e7fb1041",
+        "title": "Interval counterexamples for loop invariant learning",
+        "abstract": "Loop invariant generation has long been a challenging problem. Black-box learning has recently emerged as a promising method for inferring loop invariants. However, the performance depends heavily on the quality of collected examples. In many cases, only after tens or even hundreds of constraint queries, can a feasible invariant be successfully inferred. To reduce the gigantic number of constraint queries and improve the performance of black-box learning, we introduce interval counterexamples into the learning framework. Each interval counterexample represents a set of counterexamples from constraint solvers. We propose three different generalization techniques to compute interval counterexamples. The existing decision tree algorithm is also improved to adapt interval counterexamples. We evaluate our techniques and report over 40% improvement on learning rounds and verification time over the state-of-the-art approach.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 46,
+        "citationCount": 11,
+        "influentialCitationCount": 2,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "2007790079",
+                "name": "Rongchen Xu"
+            },
+            {
+                "authorId": "2065064494",
+                "name": "Fei He"
+            },
+            {
+                "authorId": "35194343",
+                "name": "Bow-Yaw Wang"
+            }
+        ]
+    },
+    {
+        "paperId": "2ed550d1369fed25ab4ead45c8da2383f0ddbf7d",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/SharmaHWMV20",
+            "MAG": "3105410168",
+            "DOI": "10.1145/3368089.3409734",
+            "CorpusId": 226274319
+        },
+        "corpusId": 226274319,
+        "url": "https://www.semanticscholar.org/paper/2ed550d1369fed25ab4ead45c8da2383f0ddbf7d",
+        "title": "Java Ranger: statically summarizing regions for efficient symbolic execution of Java",
+        "abstract": "Merging execution paths is a powerful technique for reducing path explosion in symbolic execution. One approach, introduced and dubbed “veritesting” by Avgerinos et al., works by translating abounded control flow region into a single constraint. This approach is a convenient way to achieve path merging as a modification to a pre-existing single-path symbolic execution engine. Previous work evaluated this approach for symbolic execution of binary code, but different design considerations apply when building tools for other languages. In this paper, we extend the previous approach for symbolic execution of Java. Because Java code typically contains many small dynamically dispatched methods, it is important to include them in multi-path regions; we introduce dynamic inlining of method-regions to do so modularly. Java’s typed memory structure is very different from the binary representation, but we show how the idea of static single assignment (SSA) form can be applied to object references to statically account for aliasing. We have implemented our algorithms in Java Ranger, an extension to the widely used Symbolic Pathfinder tool. In a set of nine benchmarks, Java Ranger reduces the running time and number of execution paths by a total of 38% and 71% respectively as compared to SPF. Our results are a significant improvement over the performance of JBMC, a recently released verification tool for Java bytecode. We also participated in a static verification competition at a top theory conference where other participants included state-of-the-art Java verifiers. JR won first place in the competition’s Java verification track.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 40,
+        "citationCount": 7,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "3300663",
+                "name": "Vaibhav Sharma"
+            },
+            {
+                "authorId": "2157810",
+                "name": "Soha Hussein"
+            },
+            {
+                "authorId": "34704632",
+                "name": "M. Whalen"
+            },
+            {
+                "authorId": "1736680",
+                "name": "Stephen McCamant"
+            },
+            {
+                "authorId": "144911743",
+                "name": "W. Visser"
+            }
+        ]
+    },
+    {
+        "paperId": "714385569284448a5f6e84ae460bb50ffd18197c",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/Bruce0AXK20",
+            "MAG": "3103342397",
+            "DOI": "10.1145/3368089.3409738",
+            "CorpusId": 221212347
+        },
+        "corpusId": 221212347,
+        "url": "https://www.semanticscholar.org/paper/714385569284448a5f6e84ae460bb50ffd18197c",
+        "title": "JShrink: in-depth investigation into debloating modern Java applications",
+        "abstract": "Modern software is bloated. Demand for new functionality has led developers to include more and more features, many of which become unneeded or unused as software evolves. This phenomenon, known as software bloat, results in software consuming more resources than it otherwise needs to. How to effectively and automatically debloat software is a long-standing problem in software engineering. Various debloating techniques have been proposed since the late 1990s. However, many of these techniques are built upon pure static analysis and have yet to be extended and evaluated in the context of modern Java applications where dynamic language features are prevalent. To this end, we develop an end-to-end bytecode debloating framework called JShrink. It augments traditional static reachability analysis with dynamic profiling and type dependency analysis and renovates existing bytecode transformations to account for new language features in modern Java. We highlight several nuanced technical challenges that must be handled properly and examine behavior preservation of debloated software via regression testing. We find that (1) JShrink is able to debloat our real-world Java benchmark suite by up to 47% (14% on average); (2) accounting for dynamic language features is indeed crucial to ensure behavior preservation---reducing 98% of test failures incurred by a purely static equivalent, Jax, and 84% for ProGuard; and (3) compared with purely dynamic approaches, integrating static analysis with dynamic profiling makes the debloated software more robust to unseen test executions---in 22 out of 26 projects, the debloated software ran successfully under new tests.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 71,
+        "citationCount": 35,
+        "influentialCitationCount": 1,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3368089.3409738",
+            "status": "BRONZE"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "2413774",
+                "name": "Bobby R. Bruce"
+            },
+            {
+                "authorId": "2146331419",
+                "name": "Tianyi Zhang"
+            },
+            {
+                "authorId": "2008151645",
+                "name": "Jaspreet Arora"
+            },
+            {
+                "authorId": "38394648",
+                "name": "G. Xu"
+            },
+            {
+                "authorId": "35710133",
+                "name": "Miryung Kim"
+            }
+        ]
+    },
+    {
+        "paperId": "06c3d6df7d256ef520690468a8606f0cc7d56920",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/ChaO20",
+            "MAG": "3099487688",
+            "DOI": "10.1145/3368089.3409755",
+            "CorpusId": 226274279
+        },
+        "corpusId": 226274279,
+        "url": "https://www.semanticscholar.org/paper/06c3d6df7d256ef520690468a8606f0cc7d56920",
+        "title": "Making symbolic execution promising by learning aggressive state-pruning strategy",
+        "abstract": "We present HOMI, a new technique to enhance symbolic execution by maintaining only a small number of promising states. In practice, symbolic execution typically maintains as many states as possible in a fear of losing important states. In this paper, however, we show that only a tiny subset of the states plays a significant role in increasing code coverage or reaching bug points. Based on this observation, HOMI aims to minimize the total number of states while keeping “promising” states during symbolic execution. We identify promising states by a learning algorithm that continuously updates the probabilistic pruning strategy based on data accumulated during the testing process. Experimental results show that HOMI greatly increases code coverage and the ability to find bugs of KLEE on open-source C programs.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 32,
+        "citationCount": 5,
+        "influentialCitationCount": 1,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "3482047",
+                "name": "Sooyoung Cha"
+            },
+            {
+                "authorId": "39476651",
+                "name": "Hakjoo Oh"
+            }
+        ]
+    },
+    {
+        "paperId": "526e66b0548390bee8b6035769bc6d7d99894d46",
+        "externalIds": {
+            "MAG": "3105178636",
+            "DBLP": "conf/sigsoft/GaaloulMNBW20",
+            "DOI": "10.1145/3368089.3409737",
+            "CorpusId": 226274173
+        },
+        "corpusId": 226274173,
+        "url": "https://www.semanticscholar.org/paper/526e66b0548390bee8b6035769bc6d7d99894d46",
+        "title": "Mining assumptions for software components using machine learning",
+        "abstract": "Software verification approaches aim to check a software component under analysis for all possible environments. In reality, however, components are expected to operate within a larger system and are required to satisfy their requirements only when their inputs are constrained by environment assumptions. In this paper, we propose EPIcuRus, an approach to automatically synthesize environment assumptions for a component under analysis (i.e., conditions on the component inputs under which the component is guaranteed to satisfy its requirements). EPIcuRus combines search-based testing, machine learning and model checking. The core of EPIcuRus is a decision tree algorithm that infers environment assumptions from a set of test results including test cases and their verdicts. The test cases are generated using search-based testing, and the assumptions inferred by decision trees are validated through model checking. In order to improve the efficiency and effectiveness of the assumption generation process, we propose a novel test case generation technique, namely Important Features Boundary Test (IFBT), that guides the test generation based on the feedback produced by machine learning. We evaluated EPIcuRus by assessing its effectiveness in computing assumptions on a set of study subjects that include 18 requirements of four industrial models. We show that, for each of the 18 requirements, EPIcuRus was able to compute an assumption to ensure the satisfaction of that requirement, and further, ≈78% of these assumptions were computed in one hour.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 66,
+        "citationCount": 14,
+        "influentialCitationCount": 2,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://orbilu.uni.lu/bitstream/10993/43473/1/fse_2020_CR.pdf",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "79414383",
+                "name": "Khouloud Gaaloul"
+            },
+            {
+                "authorId": "144341567",
+                "name": "C. Menghi"
+            },
+            {
+                "authorId": "1753944",
+                "name": "S. Nejati"
+            },
+            {
+                "authorId": "1722904",
+                "name": "L. Briand"
+            },
+            {
+                "authorId": "2056683730",
+                "name": "David Wolfe"
+            }
+        ]
+    },
+    {
+        "paperId": "9ae204c845152f37c6f6404a78e7bc8f8f1e5093",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/GopinathMZ20",
+            "MAG": "3101498506",
+            "DOI": "10.1145/3368089.3409679",
+            "CorpusId": 226274239
+        },
+        "corpusId": 226274239,
+        "url": "https://www.semanticscholar.org/paper/9ae204c845152f37c6f6404a78e7bc8f8f1e5093",
+        "title": "Mining input grammars from dynamic control flow",
+        "abstract": "One of the key properties of a program is its input specification. Having a formal input specification can be critical in fields such as vulnerability analysis, reverse engineering, software testing, clone detection, or refactoring. Unfortunately, accurate input specifications for typical programs are often unavailable or out of date. In this paper, we present a general algorithm that takes a program and a small set of sample inputs and automatically infers a readable context-free grammar capturing the input language of the program. We infer the syntactic input structure only by observing access of input characters at different locations of the input parser. This works on all stack based recursive descent input parsers, including parser combinators, and works entirely without program specific heuristics. Our Mimid prototype produced accurate and readable grammars for a variety of evaluation subjects, including complex languages such as JSON, TinyC, and JavaScript.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 45,
+        "citationCount": 31,
+        "influentialCitationCount": 1,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3368089.3409679",
+            "status": "BRONZE"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "1802682",
+                "name": "Rahul Gopinath"
+            },
+            {
+                "authorId": "21105405",
+                "name": "Björn Mathis"
+            },
+            {
+                "authorId": "145594351",
+                "name": "A. Zeller"
+            }
+        ]
+    },
+    {
+        "paperId": "c582e1b07f2cf694ee1b318b74051054338504cf",
+        "externalIds": {
+            "MAG": "3099954734",
+            "ArXiv": "2010.04476",
+            "DBLP": "conf/sigsoft/HelmKREM20",
+            "DOI": "10.1145/3368089.3409765",
+            "CorpusId": 222272114
+        },
+        "corpusId": 222272114,
+        "url": "https://www.semanticscholar.org/paper/c582e1b07f2cf694ee1b318b74051054338504cf",
+        "title": "Modular collaborative program analysis in OPAL",
+        "abstract": "Current approaches combining multiple static analyses deriving different, independent properties focus either on modularity or performance. Whereas declarative approaches facilitate modularity and automated, analysis-independent optimizations, imperative approaches foster manual, analysis-specific optimizations. In this paper, we present a novel approach to static analyses that leverages the modularity of blackboard systems and combines declarative and imperative techniques. Our approach allows exchangeability, and pluggable extension of analyses in order to improve sound(i)ness, precision, and scalability and explicitly enables the combination of otherwise incompatible analyses. With our approach integrated in the OPAL framework, we were able to implement various dissimilar analyses, including a points-to analysis that outperforms an equivalent analysis from Doop, the state-of-the-art points-to analysis framework.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 81,
+        "citationCount": 13,
+        "influentialCitationCount": 2,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://arxiv.org/pdf/2010.04476",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "38612450",
+                "name": "D. Helm"
+            },
+            {
+                "authorId": "144216516",
+                "name": "Florian Kübler"
+            },
+            {
+                "authorId": "47138634",
+                "name": "Michael Reif"
+            },
+            {
+                "authorId": "1696396",
+                "name": "Michael Eichberg"
+            },
+            {
+                "authorId": "1681134",
+                "name": "M. Mezini"
+            }
+        ]
+    },
+    {
+        "paperId": "6d34367645e64f69adb8b394dbe101db636a52c0",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/TrabishKRC20",
+            "MAG": "3099499197",
+            "DOI": "10.1145/3368089.3409698",
+            "CorpusId": 226274194
+        },
+        "corpusId": 226274194,
+        "url": "https://www.semanticscholar.org/paper/6d34367645e64f69adb8b394dbe101db636a52c0",
+        "title": "Past-sensitive pointer analysis for symbolic execution",
+        "abstract": "We propose a novel fine-grained integration of pointer analysis with dynamic analysis, including dynamic symbolic execution. This is achieved via past-sensitive pointer analysis, an on-demand pointer analysis instantiated with an abstraction of the dynamic state on which it is invoked. We evaluate our technique in three application scenarios: chopped symbolic execution, symbolic pointer resolution, and write integrity testing. Our preliminary results show that the approach can have a significant impact in these scenarios, by effectively improving the precision of standard pointer analysis with only a modest performance overhead.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 77,
+        "citationCount": 7,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "http://spiral.imperial.ac.uk/bitstream/10044/1/83370/2/paper.pdf",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "51048952",
+                "name": "David Trabish"
+            },
+            {
+                "authorId": "27440161",
+                "name": "Timotej Kapus"
+            },
+            {
+                "authorId": "1722787",
+                "name": "N. Rinetzky"
+            },
+            {
+                "authorId": "2279823",
+                "name": "Cristian Cadar"
+            }
+        ]
+    },
+    {
+        "paperId": "a429c6c8407b10a89c9610ab5e9682ec89772356",
+        "externalIds": {
+            "ArXiv": "1912.03768",
+            "MAG": "3100869085",
+            "DBLP": "journals/corr/abs-1912-03768",
+            "DOI": "10.1145/3368089.3409715",
+            "CorpusId": 208909790
+        },
+        "corpusId": 208909790,
+        "url": "https://www.semanticscholar.org/paper/a429c6c8407b10a89c9610ab5e9682ec89772356",
+        "title": "TypeWriter: neural type prediction with search-based validation",
+        "abstract": "Maintaining large code bases written in dynamically typed languages, such as JavaScript or Python, can be challenging due to the absence of type annotations: simple data compatibility errors proliferate, IDE support is limited, and APIs are hard to comprehend. Recent work attempts to address those issues through either static type inference or probabilistic type prediction. Unfortunately, static type inference for dynamic languages is inherently limited, while probabilistic approaches suffer from imprecision. This paper presents TypeWriter, the first combination of probabilistic type prediction with search-based refinement of predicted types. TypeWriter’s predictor learns to infer the return and argument types for functions from partially annotated code bases by combining the natural language properties of code with programming language-level information. To validate predicted types, TypeWriter invokes a gradual type checker with different combinations of the predicted types, while navigating the space of possible type combinations in a feedback-directed manner. We implement the TypeWriter approach for Python and evaluate it on two code corpora: a multi-million line code base at Facebook and a collection of 1,137 popular open-source projects. We show that TypeWriter’s type predictor achieves an F1 score of 0.64 (0.79) in the top-1 (top-5) predictions for return types, and 0.57 (0.80) for argument types, which clearly outperforms prior type prediction models. By combining predictions with search-based validation, TypeWriter can fully annotate between 14% to 44% of the files in a randomly selected corpus, while ensuring type correctness. A comparison with a static type inference tool shows that TypeWriter adds many more non-trivial types. TypeWriter currently suggests types to developers at Facebook and several thousands of types have already been accepted with minimal changes.",
+        "venue": {},
+        "year": 2019,
+        "referenceCount": 46,
+        "citationCount": 88,
+        "influentialCitationCount": 16,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://arxiv.org/pdf/1912.03768",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "1884064",
+                "name": "Michael Pradel"
+            },
+            {
+                "authorId": "2211882",
+                "name": "Georgios Gousios"
+            },
+            {
+                "authorId": "2119081469",
+                "name": "Jason Liu"
+            },
+            {
+                "authorId": "145486355",
+                "name": "S. Chandra"
+            }
+        ]
+    },
+    {
+        "paperId": "2a0496ea6d39f5d79fdda8c352c564150844618d",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/ZhaiHZWSQLKY20",
+            "MAG": "3109904794",
+            "DOI": "10.1145/3368089.3409686",
+            "CorpusId": 221836001
+        },
+        "corpusId": 221836001,
+        "url": "https://www.semanticscholar.org/paper/2a0496ea6d39f5d79fdda8c352c564150844618d",
+        "title": "UBITect: a precise and scalable method to detect use-before-initialization bugs in Linux kernel",
+        "abstract": "Use-before-Initialization (UBI) bugs in the Linux kernel have serious security impacts, such as information leakage and privilege escalation. Developers are adopting forced initialization to cope with UBI bugs, but this approach can still lead to undefined behaviors (e.g., NULL pointer dereference). As it is hard to infer correct initialization values, we believe that the best way to mitigate UBI bugs is detection and manual patching. Precise detection of UBI bugs requires path-sensitive analysis. The detector needs to track an associated variable’s initialization status along all the possible program execution paths to its uses. However, such exhaustive analysis prevents the detection from scaling to the whole Linux kernel. This paper presents UBITect, a UBI bug finding tool which combines flow-sensitive type qualifier analysis and symbolic execution to perform precise and scalable UBI bug detection. The scalable qualifier analysis guides symbolic execution to analyze variables that are likely to cause UBI bugs. UBITect also does not require manual effort for annotations and hence, it can be directly applied to the kernel without any source code or intermediate representation (IR) change. On the Linux kernel version 4.14, UBITect reported 190 bugs, among which 78 bugs were deemed by us as true positives and 52 were confirmed by Linux maintainers.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 29,
+        "citationCount": 16,
+        "influentialCitationCount": 1,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3368089.3409686",
+            "status": "BRONZE"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "2008047412",
+                "name": "Yizhuo Zhai"
+            },
+            {
+                "authorId": "2114157748",
+                "name": "Yu Hao"
+            },
+            {
+                "authorId": "2119077886",
+                "name": "Hang Zhang"
+            },
+            {
+                "authorId": "2111220445",
+                "name": "Daimeng Wang"
+            },
+            {
+                "authorId": "51222066",
+                "name": "Chengyu Song"
+            },
+            {
+                "authorId": "1794927",
+                "name": "Zhiyun Qian"
+            },
+            {
+                "authorId": "2331110",
+                "name": "M. Lesani"
+            },
+            {
+                "authorId": "38774813",
+                "name": "S. Krishnamurthy"
+            },
+            {
+                "authorId": "98733587",
+                "name": "Paul L. Yu"
+            }
+        ]
+    },
+    {
+        "paperId": "87d311012d1e3357e7d4f9cf212aa6cf5440a914",
+        "externalIds": {
+            "MAG": "3098294082",
+            "DBLP": "conf/sigsoft/Wang0LC20",
+            "DOI": "10.1145/3368089.3409735",
+            "CorpusId": 226274209
+        },
+        "corpusId": 226274209,
+        "url": "https://www.semanticscholar.org/paper/87d311012d1e3357e7d4f9cf212aa6cf5440a914",
+        "title": "Exploring how deprecated Python library APIs are (not) handled",
+        "abstract": "In this paper, we present the first exploratory study of deprecated Python library APIs to understand the status quo of API deprecation in the realm of Python libraries. Specifically, we aim to comprehend how deprecated library APIs are declared and documented in practice by their maintainers, and how library users react to them. By thoroughly looking into six reputed Python libraries and 1,200 GitHub projects, we experimentally observe that API deprecation is poorly handled by library contributors, which subsequently introduce difficulties for Python developers to resolve the usage of deprecated library APIs. This empirical evidence suggests that our community should take immediate actions to appropriately handle the deprecation of Python library APIs.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 58,
+        "citationCount": 32,
+        "influentialCitationCount": 3,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "2110132580",
+                "name": "Jiawei Wang"
+            },
+            {
+                "authorId": "2156057814",
+                "name": "Li Li"
+            },
+            {
+                "authorId": "145407228",
+                "name": "Kui Liu"
+            },
+            {
+                "authorId": "39136735",
+                "name": "Haipeng Cai"
+            }
+        ]
+    },
+    {
+        "paperId": "681e37f952d4df2ec00ce712cbf0f861ed2c31ae",
+        "externalIds": {
+            "MAG": "3104664309",
+            "ArXiv": "2005.12574",
+            "DBLP": "journals/corr/abs-2005-12574",
+            "DOI": "10.1145/3368089.3409711",
+            "CorpusId": 218889466
+        },
+        "corpusId": 218889466,
+        "url": "https://www.semanticscholar.org/paper/681e37f952d4df2ec00ce712cbf0f861ed2c31ae",
+        "title": "Selecting third-party libraries: the practitioners’ perspective",
+        "abstract": "The selection of third-party libraries is an essential element of virtually any software development project. However, deciding which libraries to choose is a challenging practical problem. Selecting the wrong library can severely impact a software project in terms of cost, time, and development effort, with the severity of the impact depending on the role of the library in the software architecture, among others. Despite the importance of following a careful library selection process, in practice, the selection of third-party libraries is still conducted in an ad-hoc manner, where dozens of factors play an influential role in the decision. In this paper, we study the factors that influence the selection process of libraries, as perceived by industry developers. To that aim, we perform a cross-sectional interview study with 16 developers from 11 different businesses and survey 115 developers that are involved in the selection of libraries. We systematically devised a comprehensive set of 26 technical, human, and economic factors that developers take into consideration when selecting a software library. Eight of these factors are new to the literature. We explain each of these factors and how they play a role in the decision. Finally, we discuss the implications of our work to library maintainers, potential library users, package manager developers, and empirical software engineering researchers.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 34,
+        "citationCount": 39,
+        "influentialCitationCount": 7,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://repository.tudelft.nl/islandora/object/uuid%3Adfcd6e6b-cb63-4d64-98de-194b419d3cd3/datastream/OBJ/download",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle",
+            "Review"
+        ],
+        "authors": [
+            {
+                "authorId": "2027329",
+                "name": "Enrique Larios Vargas"
+            },
+            {
+                "authorId": "2289215",
+                "name": "M. Aniche"
+            },
+            {
+                "authorId": "1685418",
+                "name": "Christoph Treude"
+            },
+            {
+                "authorId": "1805327",
+                "name": "M. Bruntink"
+            },
+            {
+                "authorId": "2211882",
+                "name": "Georgios Gousios"
+            }
+        ]
+    },
+    {
+        "paperId": "24514662bb74af23f2388e837be66931da1bbbaa",
+        "externalIds": {
+            "MAG": "3210039146",
+            "DBLP": "journals/corr/abs-2009-05632",
+            "ArXiv": "2009.05632",
+            "DOI": "10.1145/3368089.3409670",
+            "CorpusId": 221655251
+        },
+        "corpusId": 221655251,
+        "url": "https://www.semanticscholar.org/paper/24514662bb74af23f2388e837be66931da1bbbaa",
+        "title": "A principled approach to GraphQL query cost analysis",
+        "abstract": "The landscape of web APIs is evolving to meet new client requirements and to facilitate how providers fulfill them. A recent web API model is GraphQL, which is both a query language and a runtime. Using GraphQL, client queries express the data they want to retrieve or mutate, and servers respond with exactly those data or changes. GraphQL’s expressiveness is risky for service providers because clients can succinctly request stupendous amounts of data, and responding to overly complex queries can be costly or disrupt service availability. Recent empirical work has shown that many service providers are at risk. Using traditional API management methods is not sufficient, and practitioners lack principled means of estimating and measuring the cost of the GraphQL queries they receive. In this work, we present a linear-time GraphQL query analysis that can measure the cost of a query without executing it. Our approach can be applied in a separate API management layer and used with arbitrary GraphQL backends. In contrast to existing static approaches, our analysis supports common GraphQL conventions that affect query cost, and our analysis is provably correct based on our formal specification of GraphQL semantics. We demonstrate the potential of our approach using a novel GraphQL query-response corpus for two commercial GraphQL APIs. Our query analysis consistently obtains upper cost bounds, tight enough relative to the true response sizes to be actionable for service providers. In contrast, existing static GraphQL query analyses exhibit over-estimates and under-estimates because they fail to support GraphQL conventions.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 34,
+        "citationCount": 8,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://hal.inria.fr/hal-03117800/file/fse20.pdf",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "2058199783",
+                "name": "Alan Cha"
+            },
+            {
+                "authorId": "101116834",
+                "name": "Erik Wittern"
+            },
+            {
+                "authorId": "2920563",
+                "name": "Guillaume Baudart"
+            },
+            {
+                "authorId": "113882367",
+                "name": "James C. Davis"
+            },
+            {
+                "authorId": "2066239962",
+                "name": "Louis Mandel"
+            },
+            {
+                "authorId": "40643656",
+                "name": "Jim Laredo"
+            }
+        ]
+    },
+    {
+        "paperId": "ef5085b455892471d6c6f3d94a798c557bace0f9",
+        "externalIds": {
+            "MAG": "3030670596",
+            "DBLP": "journals/corr/abs-2005-13186",
+            "ArXiv": "2005.13186",
+            "DOI": "10.1145/3368089.3409688",
+            "CorpusId": 218900714
+        },
+        "corpusId": 218900714,
+        "url": "https://www.semanticscholar.org/paper/ef5085b455892471d6c6f3d94a798c557bace0f9",
+        "title": "Beware the evolving ‘intelligent’ web service! an integration architecture tactic to guard AI-first components",
+        "abstract": "Intelligent services provide the power of AI to developers via simple RESTful API endpoints, abstracting away many complexities of machine learning. However, most of these intelligent services---such as computer vision---continually learn with time. When the internals within the abstracted 'black box' become hidden and evolve, pitfalls emerge in the robustness of applications that depend on these evolving services. Without adapting the way developers plan and construct projects reliant on intelligent services, significant gaps and risks result in both project planning and development. Therefore, how can software engineers best mitigate software evolution risk moving forward, thereby ensuring that their own applications maintain quality? Our proposal is an architectural tactic designed to improve intelligent service-dependent software robustness. The tactic involves creating an application-specific benchmark dataset baselined against an intelligent service, enabling evolutionary behaviour changes to be mitigated. A technical evaluation of our implementation of this architecture demonstrates how the tactic can identify 1,054 cases of substantial confidence evolution and 2,461 cases of substantial changes to response label sets using a dataset consisting of 331 images that evolve when sent to a service.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 40,
+        "citationCount": 9,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "http://arxiv.org/pdf/2005.13186",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "8817029",
+                "name": "Alex Cummaudo"
+            },
+            {
+                "authorId": "2052845461",
+                "name": "Scott Barnett"
+            },
+            {
+                "authorId": "33402434",
+                "name": "Rajesh Vasa"
+            },
+            {
+                "authorId": "1687239",
+                "name": "J. Grundy"
+            },
+            {
+                "authorId": "47505933",
+                "name": "Mohamed Abdelrazek"
+            }
+        ]
+    },
+    {
+        "paperId": "15a463c3cf2bfec7d1504af848b36e9b26370ff3",
+        "externalIds": {
+            "MAG": "3108419307",
+            "DBLP": "conf/sigsoft/BouchetCCDGHJMP20",
+            "DOI": "10.1145/3368089.3409728",
+            "CorpusId": 226245786
+        },
+        "corpusId": 226245786,
+        "url": "https://www.semanticscholar.org/paper/15a463c3cf2bfec7d1504af848b36e9b26370ff3",
+        "title": "Block public access: trust safety verification of access control policies",
+        "abstract": "Data stored in cloud services is highly sensitive and so access to it is controlled via policies written in domain-specific languages (DSLs). The expressiveness of these DSLs provides users flexibility to cover a wide variety of uses cases, however, unintended misconfigurations can lead to potential security issues. We introduce Block Public Access, a tool that formally verifies policies to ensure that they only allow access to trusted principals, i.e. that they prohibit access to the general public. To this end, we formalize the notion of Trust Safety that formally characterizes whether or not a policy allows unconstrained (public) access. Next, we present a method to compile the policy down to a logical formula whose unsatisfiability can be (1) checked by SMT and (2) ensures Trust Safety. The constructs of the policy DSLs render unsatisfiability checking PSPACE-complete, which precludes verifying the millions of requests per second seen at cloud scale. Hence, we present an approach that leverages the structure of the policy DSL to compute a much smaller residual policy that corresponds only to untrusted accesses. Our approach allows Block Public Access to, in the common case, syntactically verify Trust Safety without having to query the SMT solver. We have implemented Block Public Access and present an evaluation showing how the above optimization yields a low-latency policy verifier that the S3 team at AWS has integrated into their authorization system, where it is currently in production, analyzing millions of policies everyday to ensure that client buckets do not grant unintended public access.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 22,
+        "citationCount": 19,
+        "influentialCitationCount": 1,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3368089.3409728",
+            "status": "BRONZE"
+        },
+        "fieldsOfStudy": [
+            "Computer Science",
+            "Business"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "2007956879",
+                "name": "Malik Bouchet"
+            },
+            {
+                "authorId": "145761556",
+                "name": "B. Cook"
+            },
+            {
+                "authorId": "17842755",
+                "name": "Bryant Cutler"
+            },
+            {
+                "authorId": "2007881987",
+                "name": "Anna Druzkina"
+            },
+            {
+                "authorId": "27038944",
+                "name": "Andrew Gacek"
+            },
+            {
+                "authorId": "2926176",
+                "name": "Liana Hadarean"
+            },
+            {
+                "authorId": "143944551",
+                "name": "Ranjit Jhala"
+            },
+            {
+                "authorId": "2007939832",
+                "name": "Brad Marshall"
+            },
+            {
+                "authorId": "2064232840",
+                "name": "Daniel Peebles"
+            },
+            {
+                "authorId": "1696320",
+                "name": "Neha Rungta"
+            },
+            {
+                "authorId": "1859909",
+                "name": "Cole Schlesinger"
+            },
+            {
+                "authorId": "40420352",
+                "name": "Chriss Stephens"
+            },
+            {
+                "authorId": "2605740",
+                "name": "C. Varming"
+            },
+            {
+                "authorId": "2008272809",
+                "name": "Andy Warfield"
+            }
+        ]
+    },
+    {
+        "paperId": "22214b8221d17809bdd34a4fb76bdbc48fc4aab2",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/GuLQQL0LDCWZCZ20",
+            "MAG": "3037590075",
+            "DOI": "10.1145/3368089.3409741",
+            "CorpusId": 225773104
+        },
+        "corpusId": 225773104,
+        "url": "https://www.semanticscholar.org/paper/22214b8221d17809bdd34a4fb76bdbc48fc4aab2",
+        "title": "Efficient incident identification from multi-dimensional issue reports via meta-heuristic search",
+        "abstract": "In large-scale cloud systems, unplanned service interruptions and outages may cause severe degradation of service availability. Such incidents can occur in a bursty manner, which will deteriorate user satisfaction. Identifying incidents rapidly and accurately is critical to the operation and maintenance of a cloud system. In industrial practice, incidents are typically detected through analyzing the issue reports, which are generated over time by monitoring cloud services. Identifying incidents in a large number of issue reports is quite challenging. An issue report is typically multi-dimensional: it has many categorical attributes. It is difficult to identify a specific attribute combination that indicates an incident. Existing methods generally rely on pruning-based search, which is time-consuming given high-dimensional data, thus not practical to incident detection in large-scale cloud systems. In this paper, we propose MID (Multi-dimensional Incident Detection), a novel framework for identifying incidents from large-amount, multi-dimensional issue reports effectively and efficiently. Key to the MID design is encoding the problem into a combinatorial optimization problem. Then a specific-tailored meta-heuristic search method is designed, which can rapidly identify attribute combinations that indicate incidents. We evaluate MID with extensive experiments using both synthetic data and real-world data collected from a large-scale production cloud system. The experimental results show that MID significantly outperforms the current state-of-the-art methods in terms of effectiveness and efficiency. Additionally, MID has been successfully applied to Microsoft's cloud systems and helped greatly reduce manual maintenance effort.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 47,
+        "citationCount": 15,
+        "influentialCitationCount": 3,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "3452998",
+                "name": "Jiazhen Gu"
+            },
+            {
+                "authorId": "2793487",
+                "name": "Qingwei Lin"
+            }
+        ]
+    },
+    {
+        "paperId": "20e46977abbf74ff1e42f1bb006df2fffaf603f1",
+        "externalIds": {
+            "MAG": "3034708216",
+            "DBLP": "conf/sigsoft/ChenYDHZL0ZKGXZ20",
+            "DOI": "10.1145/3368089.3409768",
+            "CorpusId": 226274208
+        },
+        "corpusId": 226274208,
+        "url": "https://www.semanticscholar.org/paper/20e46977abbf74ff1e42f1bb006df2fffaf603f1",
+        "title": "Identifying linked incidents in large-scale online service systems",
+        "abstract": "In large-scale online service systems, incidents occur frequently due to a variety of causes, from updates of software and hardware to changes in operation environment. These incidents could significantly degrade system’s availability and customers’ satisfaction. Some incidents are linked because they are duplicate or inter-related. The linked incidents can greatly help on-call engineers find mitigation solutions and identify the root causes. In this work, we investigate the incidents and their links in a representative real-world incident management (IcM) system. Based on the identified indicators of linked incidents, we further propose LiDAR (Linked Incident identification with DAta-driven Representation), a deep learning based approach to incident linking. More specifically, we incorporate the textual description of incidents and structural information extracted from historical linked incidents to identify possible links among a large number of incidents. To show the effectiveness of our method, we apply our method to a real-world IcM system and find that our method outperforms other state-of-the-art methods.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 44,
+        "citationCount": 28,
+        "influentialCitationCount": 2,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "144400514",
+                "name": "Yujun Chen"
+            },
+            {
+                "authorId": "2112167194",
+                "name": "Xian Yang"
+            },
+            {
+                "authorId": "145153805",
+                "name": "Hang Dong"
+            },
+            {
+                "authorId": "48535338",
+                "name": "Xiaoting He"
+            },
+            {
+                "authorId": "46702864",
+                "name": "Hongyu Zhang"
+            },
+            {
+                "authorId": "2793487",
+                "name": "Qingwei Lin"
+            },
+            {
+                "authorId": "123878903",
+                "name": "Junjie Chen"
+            },
+            {
+                "authorId": "2007757792",
+                "name": "Pu Zhao"
+            },
+            {
+                "authorId": "2110042497",
+                "name": "Yu Kang"
+            },
+            {
+                "authorId": "2153408680",
+                "name": "Feng Gao"
+            },
+            {
+                "authorId": "1485339077",
+                "name": "Zhangwei Xu"
+            },
+            {
+                "authorId": "1485159990",
+                "name": "Dongmei Zhang"
+            }
+        ]
+    },
+    {
+        "paperId": "b6dbb7e0e8f50ab0a7321e428b2ec587560069d9",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/ZhaoCWPWWZFNZSP20",
+            "MAG": "3099845770",
+            "DOI": "10.1145/3368089.3409672",
+            "CorpusId": 226274262
+        },
+        "corpusId": 226274262,
+        "url": "https://www.semanticscholar.org/paper/b6dbb7e0e8f50ab0a7321e428b2ec587560069d9",
+        "title": "Real-time incident prediction for online service systems",
+        "abstract": "Incidents in online service systems could dramatically degrade system availability and destroy user experience. To guarantee service quality and reduce economic loss, it is essential to predict the occurrence of incidents in advance so that engineers can take some proactive actions to prevent them. In this work, we propose an effective and interpretable incident prediction approach, called eWarn, which utilizes historical data to forecast whether an incident will happen in the near future based on alert data in real time. More specifically, eWarn first extracts a set of effective features (including textual features and statistical features) to represent omen alert patterns via careful feature engineering. To reduce the influence of noisy alerts (that are not relevant to the occurrence of incidents), eWarn then incorporates the multi-instance learning formulation. Finally, eWarn builds a classification model via machine learning and generates an interpretable report about the prediction result via a state-of-the-art explanation technique (i.e., LIME). In this way, an early warning signal along with its interpretable report can be sent to engineers to facilitate their understanding and handling for the incoming incident. An extensive study on 11 real-world online service systems from a large commercial bank demonstrates the effectiveness of eWarn, outperforming state-of-the-art alert-based incident prediction approaches and the practice of incident prediction with alerts. In particular, we have applied eWarn to two large commercial banks in practice and shared some success stories and lessons learned from real deployment.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 50,
+        "citationCount": 32,
+        "influentialCitationCount": 7,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "38403381",
+                "name": "Nengwen Zhao"
+            },
+            {
+                "authorId": "123878903",
+                "name": "Junjie Chen"
+            },
+            {
+                "authorId": "2107998575",
+                "name": "Zhou Wang"
+            },
+            {
+                "authorId": "46937565",
+                "name": "Xiao Peng"
+            },
+            {
+                "authorId": "2117910558",
+                "name": "Gang Wang"
+            },
+            {
+                "authorId": "2118931535",
+                "name": "Yong Wu"
+            },
+            {
+                "authorId": "14849959",
+                "name": "F. Zhou"
+            },
+            {
+                "authorId": "2113908541",
+                "name": "Zhen Feng"
+            },
+            {
+                "authorId": "2816039",
+                "name": "Xiaohui Nie"
+            },
+            {
+                "authorId": "1978123095",
+                "name": "Wenchi Zhang"
+            },
+            {
+                "authorId": "2155086",
+                "name": "Kaixin Sui"
+            },
+            {
+                "authorId": "1784745",
+                "name": "Dan Pei"
+            }
+        ]
+    },
+    {
+        "paperId": "4dc6bc05a16a4b78b6d296f0fed1e5761222a941",
+        "externalIds": {
+            "MAG": "3211158746",
+            "DBLP": "conf/sigsoft/VassalloPJGP20",
+            "DOI": "10.1145/3368089.3409709",
+            "CorpusId": 226274291
+        },
+        "corpusId": 226274291,
+        "url": "https://www.semanticscholar.org/paper/4dc6bc05a16a4b78b6d296f0fed1e5761222a941",
+        "title": "Configuration smells in continuous delivery pipelines: a linter and a six-month study on GitLab",
+        "abstract": "An effective and efficient application of Continuous Integration (CI) and Delivery (CD) requires software projects to follow certain principles and good practices. Configuring such a CI/CD pipeline is challenging and error-prone. Therefore, automated linters have been proposed to detect errors in the pipeline. While existing linters identify syntactic errors, detect security vulnerabilities or misuse of the features provided by build servers, they do not support developers that want to prevent common misconfigurations of a CD pipeline that potentially violate CD principles (“CD smells”). To this end, we propose CD-Linter, a semantic linter that can automatically identify four different smells in pipeline configuration files. We have evaluated our approach through a large-scale and long-term study that consists of (i) monitoring 145 issues (opened in as many open-source projects) over a period of 6 months, (ii) manually validating the detection precision and recall on a representative sample of issues, and (iii) assessing the magnitude of the observed smells on 5,312 open-source projects on GitLab. Our results show that CD smells are accepted and fixed by most of the developers and our linter achieves a precision of 87% and a recall of 94%. Those smells can be frequently observed in the wild, as 31% of projects with long configurations are affected by at least one smell.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 34,
+        "citationCount": 20,
+        "influentialCitationCount": 2,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://zenodo.org/record/3860985/files/VassalloFSE2020.pdf",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "2404391",
+                "name": "Carmine Vassallo"
+            },
+            {
+                "authorId": "1933475",
+                "name": "Sebastian Proksch"
+            },
+            {
+                "authorId": "50480228",
+                "name": "Anna Jancso"
+            },
+            {
+                "authorId": "50355692",
+                "name": "H. Gall"
+            },
+            {
+                "authorId": "122199332",
+                "name": "Massimiliano Di Penta"
+            }
+        ]
+    },
+    {
+        "paperId": "a007500918ada37a6aa97362148c0adeb46410f7",
+        "externalIds": {
+            "MAG": "3103458997",
+            "DBLP": "conf/sigsoft/SiegmundRS20",
+            "DOI": "10.1145/3368089.3409675",
+            "CorpusId": 226274277
+        },
+        "corpusId": 226274277,
+        "url": "https://www.semanticscholar.org/paper/a007500918ada37a6aa97362148c0adeb46410f7",
+        "title": "Dimensions of software configuration: on the configuration context in modern software development",
+        "abstract": "With the rise of containerization, cloud development, and continuous integration and delivery, configuration has become an essential aspect not only to tailor software to user requirements, but also to configure a software system’s environment and infrastructure. This heterogeneity of activities, domains, and processes blurs the term configuration, as it is not clear anymore what tasks, artifacts, or stakeholders are involved and intertwined. However, each re- search study and each paper involving configuration places their contributions and findings in a certain context without making the context explicit. This makes it difficult to compare findings, translate them to practice, and to generalize the results. Thus, we set out to evaluate whether these different views on configuration are really distinct or can be summarized under a common umbrella. By interviewing practitioners from different domains and in different roles about the aspects of configuration and by analyzing two qualitative studies in similar areas, we derive a model of configuration that provides terminology and context for research studies, identifies new research opportunities, and allows practitioners to spot possible challenges in their current tasks. Although our interviewees have a clear view about configuration, it substantially differs due to their personal experience and role. This indicates that the term configuration might be overloaded. However, when taking a closer look, we see the interconnections and dependencies among all views, arriving at the conclusion that we need to start considering the entire spectrum of dimensions of configuration.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 45,
+        "citationCount": 10,
+        "influentialCitationCount": 2,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "1708928",
+                "name": "Norbert Siegmund"
+            },
+            {
+                "authorId": "2008285868",
+                "name": "Nicolai Ruckel"
+            },
+            {
+                "authorId": "2834481",
+                "name": "J. Siegmund"
+            }
+        ]
+    },
+    {
+        "paperId": "29c575e2cbfc05661dbbc0eecd5c2b66ace595a8",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/0015IK20",
+            "MAG": "3107944503",
+            "DOI": "10.1145/3368089.3409721",
+            "CorpusId": 226274269
+        },
+        "corpusId": 226274269,
+        "url": "https://www.semanticscholar.org/paper/29c575e2cbfc05661dbbc0eecd5c2b66ace595a8",
+        "title": "Global cost/quality management across multiple applications",
+        "abstract": "Approximation is a technique that optimizes the balance between application outcome quality and its resource usage. Trading quality for performance has been investigated for single application scenarios, but not for environments where multiple approximate applications may run concurrently on the same machine, interfering with each other by sharing machine resources. Applying existing, single application techniques to this multi-programming environment may lead to configuration space size explosion, or result in poor overall application quality outcomes. Our new RAPID-M system is the first cross-application con-figuration management framework. It reduces the problem size by clustering configurations of individual applications into local\"similarity buckets\". The global cross-applications configuration selection is based on these local bucket spaces. RAPID-M dynamically assigns buckets to applications such that overall quality is maximized while respecting individual application cost budgets.Once assigned a bucket, reconfigurations within buckets may be performed locally with minimal impact on global selections. Experimental results using six configurable applications show that even large configuration spaces of complex applications can be clustered into a small number of buckets, resulting in search space size reductions of up to 9 orders of magnitude for our six applications. RAPID-M constructs performance cost models with an average prediction error of ≤3%. For our application execution traces, RAPID-M dynamically selects configurations that lower the budget violation rate by 33.9% with an average budget exceeding rate of 6.6% as compared to other possible approaches. RAPID-M successfully finishes 22.75% more executions which translates to a 1.52X global output quality increase under high system loads. Theo verhead ofRAPID-Mis within≤1% of application execution times.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 36,
+        "citationCount": 4,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3368089.3409721",
+            "status": "BRONZE"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "2109528637",
+                "name": "Liu Liu"
+            },
+            {
+                "authorId": "2652237",
+                "name": "Sibren Isaacman"
+            },
+            {
+                "authorId": "1796928",
+                "name": "U. Kremer"
+            }
+        ]
+    },
+    {
+        "paperId": "a8c58b0f1b969e12bff7f492c46b9f57d3f55e57",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/ChenWLLX20",
+            "MAG": "3107331477",
+            "DOI": "10.1145/3368089.3409727",
+            "CorpusId": 221837955
+        },
+        "corpusId": 221837955,
+        "url": "https://www.semanticscholar.org/paper/a8c58b0f1b969e12bff7f492c46b9f57d3f55e57",
+        "title": "Understanding and discovering software configuration dependencies in cloud and datacenter systems",
+        "abstract": "A large percentage of real-world software configuration issues, such as misconfigurations, involve multiple interdependent configuration parameters. However, existing techniques and tools either do not consider dependencies among configuration parameters— termed configuration dependencies—or rely on one or two dependency types and code patterns as input. Without rigorous understanding of configuration dependencies, it is hard to deal with many resulting configuration issues. This paper presents our study of software configuration dependencies in 16 widely-used cloud and datacenter systems, including dependencies within and across software components. To understand types of configuration dependencies, we conduct an exhaustive search of descriptions in structured configuration metadata and unstructured user manuals. We find and manually analyze 521 configuration dependencies. We define five types of configuration dependencies and identify their common code patterns. We report on consequences of not satisfying these dependencies and current software engineering practices for handling the consequences. We mechanize the knowledge gained from our study in a tool, cDep, which detects configuration dependencies. cDep automatically discovers five types of configuration dependencies from bytecode using static program analysis. We apply cDep to the eight Java and Scala software systems in our study. cDep finds 87.9% (275/313) of the related subset of dependencies from our study. cDep also finds 448 previously undocumented dependencies, with a 6.0% average false positive rate. Overall, our results show that configuration dependencies are more prevalent and diverse than previously reported and should henceforth be considered a first-class issue in software configuration engineering.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 82,
+        "citationCount": 30,
+        "influentialCitationCount": 5,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://www.ideals.illinois.edu/items/115638/bitstreams/378287/data.pdf",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "1935150832",
+                "name": "Qingrong Chen"
+            },
+            {
+                "authorId": "2116582672",
+                "name": "Teng Wang"
+            },
+            {
+                "authorId": "3023790",
+                "name": "Owolabi Legunsen"
+            },
+            {
+                "authorId": "50342128",
+                "name": "Shanshan Li"
+            },
+            {
+                "authorId": "38127194",
+                "name": "Tianyin Xu"
+            }
+        ]
+    },
+    {
+        "paperId": "b309a414b67148020b232f0263c613f9a5ce774f",
+        "externalIds": {
+            "MAG": "3099223177",
+            "DBLP": "conf/sigsoft/MirhosseiniP20",
+            "DOI": "10.1145/3368089.3409706",
+            "CorpusId": 226274138
+        },
+        "corpusId": 226274138,
+        "url": "https://www.semanticscholar.org/paper/b309a414b67148020b232f0263c613f9a5ce774f",
+        "title": "Docable: evaluating the executability of software tutorials",
+        "abstract": "The typical software tutorial includes step-by-step instructions for installing developer tools, editing files and code, and running commands. When these software tutorials are not executable, either due to missing instructions, ambiguous steps, or simply broken commands, their value is diminished. Non-executable tutorials impact developers in several ways, including frustrating learning experiences, and limiting usability of developer tools. To understand to what extent software tutorials are executable---and why they may fail---we conduct an empirical study on over 600 tutorials, including nearly 15,000 code blocks. We find a naive execution strategy achieves an overall executability rate of only 26%. Even a human-annotation-based execution strategy---while doubling executability---still yields no tutorial that can successfully execute all steps. We identify several common executability barriers, ranging from potentially innocuous causes, such as interactive prompts requiring human responses, to insidious errors, such as missing steps and inaccessible resources. We validate our findings with major stakeholders in technical documentation and discuss possible strategies for improving software tutorials, such as providing accessible alternatives for tutorial takers, and investing in automated tutorial testing to ensure continuous quality of software tutorials.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 39,
+        "citationCount": 3,
+        "influentialCitationCount": 1,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3368089.3409706",
+            "status": "BRONZE"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book",
+            "Review"
+        ],
+        "authors": [
+            {
+                "authorId": "27467538",
+                "name": "Samim Mirhosseini"
+            },
+            {
+                "authorId": "1765101",
+                "name": "Chris Parnin"
+            }
+        ]
+    },
+    {
+        "paperId": "10473bf2c3bc856fd9aa40b6a1c3ca350c1d0e9c",
+        "externalIds": {
+            "DBLP": "journals/corr/abs-2007-05046",
+            "MAG": "3042079402",
+            "ArXiv": "2007.05046",
+            "DOI": "10.1145/3368089.3409751",
+            "CorpusId": 220487196
+        },
+        "corpusId": 220487196,
+        "url": "https://www.semanticscholar.org/paper/10473bf2c3bc856fd9aa40b6a1c3ca350c1d0e9c",
+        "title": "RulePad: interactive authoring of checkable design rules",
+        "abstract": "Good documentation offers the promise of enabling developers to easily understand design decisions. Unfortunately, in practice, design documents are often rarely updated, becoming inaccurate, incomplete, and untrustworthy. A better solution is to enable developers to write down design rules which are checked against code for consistency. But existing rule checkers require learning specialized query languages or program analysis frameworks, creating a barrier to writing project-specific rules. We introduce two new techniques for authoring design rules: snippet-based authoring and semi-natural-language authoring. In snippet-based authoring, developers specify characteristics of elements to match by writing partial code snippets. In semi-natural language authoring, a textual representation offers a representation for understanding design rules and resolving ambiguities. We implemented these approaches in RulePad. To evaluate RulePad, we conducted a between-subjects study with 14 participants comparing RulePad to the PMD Designer, a utility for writing rules in a popular rule checker. We found that those with RulePad were able to successfully author 13 times more query elements in significantly less time and reported being significantly more willing to use RulePad in their everyday work.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 40,
+        "citationCount": 6,
+        "influentialCitationCount": 2,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://arxiv.org/pdf/2007.05046",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "2066273957",
+                "name": "Sahar Mehrpour"
+            },
+            {
+                "authorId": "1683595",
+                "name": "Thomas D. Latoza"
+            },
+            {
+                "authorId": "1862035",
+                "name": "Hamed Sarvari"
+            }
+        ]
+    },
+    {
+        "paperId": "b8ae6b594b67a3314bb86f182285933b0e63b357",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/TanZS20",
+            "MAG": "3100550131",
+            "DOI": "10.1145/3368089.3409746",
+            "CorpusId": 226274263
+        },
+        "corpusId": 226274263,
+        "url": "https://www.semanticscholar.org/paper/b8ae6b594b67a3314bb86f182285933b0e63b357",
+        "title": "A first look at good first issues on GitHub",
+        "abstract": "Keeping a good influx of newcomers is critical for open source software projects' survival, while newcomers face many barriers to contributing to a project for the first time. To support newcomers onboarding, GitHub encourages projects to apply labels such as good first issue (GFI) to tag issues suitable for newcomers. However, many newcomers still fail to contribute even after many attempts, which not only reduces the enthusiasm of newcomers to contribute but makes the efforts of project members in vain. To better support the onboarding of newcomers, this paper reports a preliminary study on this mechanism from its application status, effect, problems, and best practices. By analyzing 9,368 GFIs from 816 popular GitHub projects and conducting email surveys with newcomers and project members, we obtain the following results. We find that more and more projects are applying this mechanism in the past decade, especially the popular projects. Compared to common issues, GFIs usually need more days to be solved. While some newcomers really join the projects through GFIs, almost half of GFIs are not solved by newcomers. We also discover a series of problems covering mechanism (e.g., inappropriate GFIs), project (e.g., insufficient GFIs) and newcomer (e.g., uneven skills) that makes this mechanism ineffective. We discover the practices that may address the problems, including identifying GFIs that have informative description and available support, and require limited scope and skill, etc. Newcomer onboarding is an important but challenging question in open source projects and our work enables a better understanding of GFI mechanism and its problems, as well as highlights ways in improving them.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 45,
+        "citationCount": 32,
+        "influentialCitationCount": 2,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3368089.3409746",
+            "status": "BRONZE"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book",
+            "Review"
+        ],
+        "authors": [
+            {
+                "authorId": "2112780861",
+                "name": "Xin Tan"
+            },
+            {
+                "authorId": "40318014",
+                "name": "Minghui Zhou"
+            },
+            {
+                "authorId": "2007961688",
+                "name": "Zeyu Sun"
+            }
+        ]
+    },
+    {
+        "paperId": "577f7754155c047d89340e06899ce9f25c0c9be9",
+        "externalIds": {
+            "MAG": "3106017315",
+            "DBLP": "conf/sigsoft/UesbeckPSS20",
+            "DOI": "10.1145/3368089.3409701",
+            "CorpusId": 226274240
+        },
+        "corpusId": 226274240,
+        "url": "https://www.semanticscholar.org/paper/577f7754155c047d89340e06899ce9f25c0c9be9",
+        "title": "A randomized controlled trial on the effects of embedded computer language switching",
+        "abstract": "Polyglot programming, the use of multiple programming languages during the development process, is common practice in modern software development. This study investigates this practice through a randomized controlled trial conducted under the context of database programming. Participants in the study were given coding tasks written in Java and one of three SQL-like embedded languages. One was plain SQL in strings, one was in Java only, and the third was a hybrid embedded language that was closer to the host language. We recorded 109 valid data points. Results showed significant differences in how developers of different experience levels code using polyglot techniques. Notably, less experienced programmers wrote correct programs faster in the hybrid condition (frequent, but less severe, switches), while more experienced developers that already knew both languages performed better in traditional SQL (less frequent but more complete switches). The results indicate that the productivity impact of polyglot programming is complex and experience level dependent.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 31,
+        "citationCount": 3,
+        "influentialCitationCount": 0,
+        "isOpenAccess": true,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "3400318",
+                "name": "Phillip Merlin Uesbeck"
+            },
+            {
+                "authorId": "32124013",
+                "name": "Cole S. Peterson"
+            },
+            {
+                "authorId": "3263403",
+                "name": "Bonita Sharif"
+            },
+            {
+                "authorId": "144320704",
+                "name": "A. Stefik"
+            }
+        ]
+    },
+    {
+        "paperId": "d28852a365007a8435744fc97b4a0c121aa781ed",
+        "externalIds": {
+            "MAG": "3107708718",
+            "DBLP": "conf/sigsoft/SilvaWGTGS20",
+            "DOI": "10.1145/3368089.3409724",
+            "CorpusId": 226274229
+        },
+        "corpusId": 226274229,
+        "url": "https://www.semanticscholar.org/paper/d28852a365007a8435744fc97b4a0c121aa781ed",
+        "title": "A theory of the engagement in open source projects via summer of code programs",
+        "abstract": "Summer of code programs connect students to open source software (OSS) projects, typically during the summer break from school. Analyzing consolidated summer of code programs can reveal how college students, who these programs usually target, can be motivated to participate in OSS, and what onboarding strategies OSS communities adopt to receive these students. In this paper, we study the well-established Google Summer of Code (GSoC) and devise an integrated engagement theory grounded in multiple data sources to explain motivation and onboarding in this context. Our analysis shows that OSS communities employ several strategies for planning and executing student participation, socially integrating the students, and rewarding student’s contributions and achievements. Students are motivated by a blend of rewards, which are moderated by external factors. We presented these rewards and the motivation theory to students who had never participated in a summer of code program and collected their shift in motivation after learning about the theory. New students can benefit from the former students' experiences detailed in our results, and OSS stakeholders can leverage both the insight into students’ motivations for joining such programs as well as the onboarding strategies we identify to devise actions to attract and retain newcomers.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 71,
+        "citationCount": 18,
+        "influentialCitationCount": 4,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle"
+        ],
+        "authors": [
+            {
+                "authorId": "29333956",
+                "name": "J. Silva"
+            },
+            {
+                "authorId": "2381447",
+                "name": "I. Wiese"
+            },
+            {
+                "authorId": "2131161",
+                "name": "D. Germán"
+            },
+            {
+                "authorId": "1685418",
+                "name": "Christoph Treude"
+            },
+            {
+                "authorId": "143911967",
+                "name": "M. Gerosa"
+            },
+            {
+                "authorId": "2091414",
+                "name": "Igor Steinmacher"
+            }
+        ]
+    },
+    {
+        "paperId": "c5d97d77d25d4b0cf1bcb143e21a2e53cdbfc75c",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/KrugerB20",
+            "MAG": "3108926370",
+            "DOI": "10.1145/3368089.3409684",
+            "CorpusId": 221719581
+        },
+        "corpusId": 221719581,
+        "url": "https://www.semanticscholar.org/paper/c5d97d77d25d4b0cf1bcb143e21a2e53cdbfc75c",
+        "title": "An empirical analysis of the costs of clone- and platform-oriented software reuse",
+        "abstract": "Software reuse lowers development costs and improves the quality of software systems. Two strategies are common: clone & own (copying and adapting a system) and platform-oriented reuse (building a configurable platform). The former is readily available, flexible, and initially cheap, but does not scale with the frequency of reuse, imposing high maintenance costs. The latter scales, but imposes high upfront investments for building the platform, and reduces flexibility. As such, each strategy has distinctive advantages and disadvantages, imposing different development activities and software architectures. Deciding for one strategy is a core decision with long-term impact on an organization’s software development. Unfortunately, the strategies’ costs are not well-understood - not surprisingly, given the lack of systematically elicited empirical data, which is difficult to collect. We present an empirical study of the development activities, costs, cost factors, and benefits associated with either reuse strategy. For this purpose, we combine quantitative and qualitative data that we triangulated from 26 interviews at a large organization and a systematic literature review covering 57 publications. Our study both confirms and refutes common hypotheses on software reuse. For instance, we confirm that developing for platform-oriented reuse is more expensive, but simultaneously reduces reuse costs; and that platform-orientation results in higher code quality compared to clone & own. Surprisingly, refuting common hypotheses, we find that change propagation can be more expensive in a platform, that platforms can facilitate the advancement into innovative markets, and that there is no strict distinction of clone & own and platform-oriented reuse in practice.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 119,
+        "citationCount": 48,
+        "influentialCitationCount": 3,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book",
+            "Review"
+        ],
+        "authors": [
+            {
+                "authorId": "38256069",
+                "name": "J. Krüger"
+            },
+            {
+                "authorId": "39565422",
+                "name": "T. Berger"
+            }
+        ]
+    },
+    {
+        "paperId": "a39c4f449df5ad757c9a348d80700959efa96485",
+        "externalIds": {
+            "MAG": "3029086579",
+            "DBLP": "conf/sigsoft/ErlenhovN020",
+            "ArXiv": "2005.13969",
+            "DOI": "10.1145/3368089.3409680",
+            "CorpusId": 218971687
+        },
+        "corpusId": 218971687,
+        "url": "https://www.semanticscholar.org/paper/a39c4f449df5ad757c9a348d80700959efa96485",
+        "title": "An empirical study of bots in software development: characteristics and challenges from a practitioner’s perspective",
+        "abstract": "Software engineering bots – automated tools that handle tedious tasks – are increasingly used by industrial and open source projects to improve developer productivity. Current research in this area is held back by a lack of consensus of what software engineering bots (DevBots) actually are, what characteristics distinguish them from other tools, and what benefits and challenges are associated with DevBot usage. In this paper we report on a mixed-method empirical study of DevBot usage in industrial practice. We report on findings from interviewing 21 and surveying a total of 111 developers. We identify three different personas among DevBot users (focusing on autonomy, chat interfaces, and “smartness”), each with different definitions of what a DevBot is, why developers use them, and what they struggle with.We conclude that future DevBot research should situate their work within our framework, to clearly identify what type of bot the work targets, and what advantages practitioners can expect. Further, we find that there currently is a lack of general purpose “smart” bots that go beyond simple automation tools or chat interfaces. This is problematic, as we have seen that such bots, if available, can have a transformative effect on the projects that use them.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 34,
+        "citationCount": 37,
+        "influentialCitationCount": 8,
+        "isOpenAccess": true,
+        "openAccessPdf": {
+            "url": "https://arxiv.org/pdf/2005.13969",
+            "status": "GREEN"
+        },
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "Book",
+            "JournalArticle",
+            "Review"
+        ],
+        "authors": [
+            {
+                "authorId": "51128103",
+                "name": "Linda Erlenhov"
+            },
+            {
+                "authorId": "2547568",
+                "name": "F. D. O. Neto"
+            },
+            {
+                "authorId": "1910406",
+                "name": "P. Leitner"
+            }
+        ]
+    },
+    {
+        "paperId": "0b7ee06dd8ad0ed6b339a181dbc901d5e4a11965",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/0015LSMSW20",
+            "MAG": "3098502934",
+            "DOI": "10.1145/3368089.3409681",
+            "CorpusId": 221741181
+        },
+        "corpusId": 221741181,
+        "url": "https://www.semanticscholar.org/paper/0b7ee06dd8ad0ed6b339a181dbc901d5e4a11965",
+        "title": "Biases and differences in code review using medical imaging and eye-tracking: genders, humans, and machines",
+        "abstract": "Code review is a critical step in modern software quality assurance, yet it is vulnerable to human biases. Previous studies have clarified the extent of the problem, particularly regarding biases against the authors of code,but no consensus understanding has emerged. Advances in medical imaging are increasingly applied to software engineering, supporting grounded neurobiological explorations of computing activities, including the review, reading, and writing of source code. In this paper, we present the results of a controlled experiment using both medical imaging and also eye tracking to investigate the neurological correlates of biases and differences between genders of humans and machines (e.g., automated program repair tools) in code review. We find that men and women conduct code reviews differently, in ways that are measurable and supported by behavioral, eye-tracking and medical imaging data. We also find biases in how humans review code as a function of its apparent author, when controlling for code quality. In addition to advancing our fundamental understanding of how cognitive biases relate to the code review process, the results may inform subsequent training and tool design to reduce bias.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 107,
+        "citationCount": 16,
+        "influentialCitationCount": 1,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science",
+            "Psychology"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book",
+            "Review"
+        ],
+        "authors": [
+            {
+                "authorId": "2108861093",
+                "name": "Yu Huang"
+            },
+            {
+                "authorId": "3263287",
+                "name": "Kevin Leach"
+            },
+            {
+                "authorId": "2369671",
+                "name": "Zohreh Sharafi"
+            },
+            {
+                "authorId": "2072450277",
+                "name": "Nicholas McKay"
+            },
+            {
+                "authorId": "6391930",
+                "name": "Tyler Santander"
+            },
+            {
+                "authorId": "47211092",
+                "name": "Westley Weimer"
+            }
+        ]
+    },
+    {
+        "paperId": "a774cd4562801aa30b489e7d9e1a33980ef900b0",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/Hermann0S20",
+            "MAG": "3099627437",
+            "DOI": "10.1145/3368089.3409767",
+            "CorpusId": 222270323
+        },
+        "corpusId": 222270323,
+        "url": "https://www.semanticscholar.org/paper/a774cd4562801aa30b489e7d9e1a33980ef900b0",
+        "title": "Community expectations for research artifacts and evaluation processes",
+        "abstract": "Background. Artifact evaluation has been introduced into the software engineering and programming languages research community with a pilot at ESEC/FSE 2011 and has since then enjoyed a healthy adoption throughout the conference landscape. Objective. In this qualitative study, we examine the expectations of the community toward research artifacts and their evaluation processes. Method. We conducted a survey including all members of artifact evaluation committees of major conferences in the software engineering and programming language field since the first pilot and compared the answers to expectations set by calls for artifacts and reviewing guidelines. Results. While we find that some expectations exceed the ones expressed in calls and reviewing guidelines, there is no consensus on quality thresholds for artifacts in general. We observe very specific quality expectations for specific artifact types for review and later usage, but also a lack of their communication in calls. We also find problematic inconsistencies in the terminology used to express artifact evaluation’s most important purpose – replicability. Conclusion. We derive several actionable suggestions which can help to mature artifact evaluation in the inspected community and also to aid its introduction into other communities in computer science.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 23,
+        "citationCount": 13,
+        "influentialCitationCount": 2,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book",
+            "Review"
+        ],
+        "authors": [
+            {
+                "authorId": "39888100",
+                "name": "Ben Hermann"
+            },
+            {
+                "authorId": "144127815",
+                "name": "Stefan Winter"
+            },
+            {
+                "authorId": "2834481",
+                "name": "J. Siegmund"
+            }
+        ]
+    },
+    {
+        "paperId": "adf930ae6f3712e083d2384c5aa6b13de82ff212",
+        "externalIds": {
+            "MAG": "3103813689",
+            "DBLP": "conf/sigsoft/BehrooziSBP20",
+            "DOI": "10.1145/3368089.3409712",
+            "CorpusId": 220545258
+        },
+        "corpusId": 220545258,
+        "url": "https://www.semanticscholar.org/paper/adf930ae6f3712e083d2384c5aa6b13de82ff212",
+        "title": "Does stress impact technical interview performance?",
+        "abstract": "Software engineering candidates commonly participate in whiteboard technical interviews as part of a hiring assessment. During these sessions, candidates write code while thinking aloud as they work towards a solution, under the watchful eye of an interviewer. While technical interviews should allow for an unbiased and inclusive assessment of problem-solving ability, surprisingly, technical interviews may be instead a procedure for identifying candidates who best handle and migrate stress solely caused by being examined by an interviewer (performance anxiety). To understand if coding interviews—as administered today—can induce stress that significantly hinders performance, we conducted a randomized controlled trial with 48 Computer Science students, comparing them in private and public whiteboard settings. We found that performance is reduced by more than half, by simply being watched by an interviewer. We also observed that stress and cognitive load were significantly higher in a traditional technical interview when compared with our private interview. Consequently, interviewers may be filtering out qualified candidates by confounding assessment of problem-solving ability with unnecessary stress. We propose interview modifications to make problem-solving assessment more equitable and inclusive, such as through private focus sessions and retrospective think-aloud, allowing companies to hire from a larger and diverse pool of talent.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 86,
+        "citationCount": 14,
+        "influentialCitationCount": 1,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Psychology",
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "25568009",
+                "name": "Mahnaz Behroozi"
+            },
+            {
+                "authorId": "1949487475",
+                "name": "Shivani Shirolkar"
+            },
+            {
+                "authorId": "1686613",
+                "name": "Titus Barik"
+            },
+            {
+                "authorId": "1765101",
+                "name": "Chris Parnin"
+            }
+        ]
+    },
+    {
+        "paperId": "471c182f35260f0873589946445011dcc0597691",
+        "externalIds": {
+            "DBLP": "conf/sigsoft/DittrichMTLE20",
+            "MAG": "3106045967",
+            "DOI": "10.1145/3368089.3409766",
+            "CorpusId": 226274285
+        },
+        "corpusId": 226274285,
+        "url": "https://www.semanticscholar.org/paper/471c182f35260f0873589946445011dcc0597691",
+        "title": "Exploring the evolution of software practices",
+        "abstract": "When software products and services are developed and maintained over longer time, software engineering practices tend to drift away from both structured and agile methods. Nonetheless, in many cases the evolving practices are far from ad hoc or chaotic. How are the teams involved able to coordinate their joint development?This article reports on an ethnographic study of a small team at a successful provider of software as a service. What struck us was the very explicit way in which the team adopted and adapted their practices to fit the needs of the evolving development. The discussion relates the findings to the concepts of social practices and methods in software engineering, and explores the differences between degraded behavior and the coordinated evolution of development practices. The analysis helps to better understand how software engineering practices evolve, and thus provides a starting point for rethinking software engineering methods and their relation to software engineering practice.",
+        "venue": {},
+        "year": 2020,
+        "referenceCount": 54,
+        "citationCount": 5,
+        "influentialCitationCount": 0,
+        "isOpenAccess": false,
+        "openAccessPdf": null,
+        "fieldsOfStudy": [
+            "Computer Science"
+        ],
+        "publicationTypes": [
+            "JournalArticle",
+            "Book"
+        ],
+        "authors": [
+            {
+                "authorId": "2273436",
+                "name": "Y. Dittrich"
+            },
+            {
+                "authorId": "2068103412",
+                "name": "C. Michelsen"
+            },
+            {
+                "authorId": "2029816",
+                "name": "Paolo Tell"
+            },
+            {
+                "authorId": "47806260",
+                "name": "P. Lous"
+            },
+            {
+                "authorId": "46247325",
+                "name": "Allan Ebdrup"
+            }
+        ]
+    }
+]
