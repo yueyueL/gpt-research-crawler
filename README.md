@@ -1,6 +1,6 @@
-# gpt-research
+# gpt-research-crawler
 
-`gpt-research` is an advanced tool designed to crawl research paper data and generate knowledge files, enabling the creation of custom GPT models based on specific conference materials or individual paper PDFs. This tool is particularly useful for researchers, academics, and enthusiasts in the field of AI and Machine Learning.
+`gpt-research-crawler` is an advanced tool designed to crawl research paper data and generate knowledge files, enabling the creation of custom GPT models based on specific conference materials or individual paper PDFs. This tool is particularly useful for researchers, academics, and enthusiasts in the field of AI and Machine Learning.
 
 
 ## Table of Contents
@@ -23,7 +23,7 @@
 
 ## Example
 
-`gpt-research` was instrumental in developing a custom GPT model encompassing a comprehensive range of papers from leading Security and Software Engineering conferences. This specialized GPT offers dedicated query support in these specific academic fields.
+`gpt-research-crawler` was instrumental in developing a custom GPT model encompassing a comprehensive range of papers from leading Security and Software Engineering conferences. This specialized GPT offers dedicated query support in these specific academic fields.
 
 - **Custom GPT Demonstration**: SE & SEC Scholar Supportive – Explore this custom GPT model designed to assist with SE & SEC research queries. [SE & SEC Scholar Supportive - Providing inclusive support for SE & SEC research.](https://chat.openai.com/g/g-mPO2BZegm-se-sec-scholar-supportive)
  
@@ -35,7 +35,7 @@
 ### Setup and Installation
 
 ```sh
-git clone https://github.com/yueyueL/gpt-research
+git clone https://github.com/yueyueL/gpt-research-crawler
 ```
 
 #### Install dependencies
